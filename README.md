@@ -1,6 +1,8 @@
 # Buryat morphological analyzer
 This is a rule-based morphological analyzer for Buryat (``bua``; Mongolic). It is based on a formalized description of literary Buryat morphology, which uses [uniparser-morph](https://github.com/timarkh/uniparser-morph) for parsing. It performs full morphological analysis of Buryat words (lemmatization, POS tagging, grammatical tagging, glossing).
 
+NB: The analyzer is still under construction. Right now, a number of entries in the dictionary have wrong POS tags or paradigms. Use with caution.
+
 ## How to use
 ### Python package
 The analyzer is available as a Python package. If you want to analyze Buryat texts in Python, install the module:

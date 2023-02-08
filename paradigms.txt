@@ -4861,28 +4861,53 @@
 
 
 -paradigm: poss-m(ni)-n
- -flex: .
+ -flex: .<.>
   gramm: 
- -flex: .м//.мни
+ -flex: .м<.>//.мни<.>
   gramm: poss_1sg
- -flex: .шни
+ -flex: .шни<.>
   gramm: poss_2sg
- -flex: .мнай
+ -flex: .мнай<.>
   gramm: poss_1pl
- -flex: .тнай
+ -flex: .тнай<.>
   gramm: poss_2pl
- -flex: .нь
+ -flex: .нь<.>
   gramm: poss_3
+ paradigm: predic_non_verbal
+
 -paradigm: poss-ni-n
+ -flex: .<.>
+  gramm: 
+ -flex: .ни<.>
+  gramm: poss_1sg
+ -flex: .шни<.>
+  gramm: poss_2sg
+ -flex: .най<.>
+  gramm: poss_1pl
+ -flex: .тнай<.>
+  gramm: poss_2pl
+ -flex: .нь<.>
+  gramm: poss_3
+ paradigm: predic_non_verbal
+
+
+-paradigm: predic_non_verbal
  -flex: .
   gramm: 
- -flex: .ни
-  gramm: poss_1sg
- -flex: .шни
-  gramm: poss_2sg
- -flex: .най
-  gramm: poss_1pl
- -flex: .тнай
-  gramm: poss_2pl
- -flex: .нь
-  gramm: poss_3
+ -flex: .би
+  gramm: pred,1,sg
+ -flex: .б
+  gramm: pred,1,sg
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .бди
+  gramm: pred,1,pl
+ -flex: .ши
+  gramm: pred,2,sg
+ -flex: .ш
+  gramm: pred,2,sg
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .та
+  gramm: pred,2,pl
+ -flex: .т
+  gramm: pred,2,pl
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
