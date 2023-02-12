@@ -9075,7 +9075,7 @@
  lex: багта
  stem: багта.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: приблизительно, около
 
 -lexeme
@@ -30030,8 +30030,8 @@
  lex: гү
  stem: гү.
  gramm: PART
- paradigm: unchangeable
- trans_ru: PART
+ paradigm: predic_non_verbal
+ trans_ru: ли
 
 -lexeme
  lex: гүбдэрүү
@@ -31172,16 +31172,23 @@
 -lexeme
  lex: гөө
  stem: гөө.
- gramm: A
+ gramm: PART
  paradigm: predic_non_verbal
- trans_ru: PART
+ trans_ru: ли
 
 -lexeme
  lex: даа
  stem: даа.
  gramm: PART
  paradigm: unchangeable
- trans_ru: PART
+ trans_ru: конечно; -то
+
+-lexeme
+ lex: бшуу
+ stem: бшуу.
+ gramm: PART
+ paradigm: unchangeable
+ trans_ru: ведь
 
 -lexeme
  lex: даабари
@@ -35780,6 +35787,20 @@
  trans_ru: внизу, вниз
 
 -lexeme
+ lex: доро
+ stem: доро.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: под
+
+-lexeme
+ lex: дороһоо
+ stem: дороһоо.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: из-под
+
+-lexeme
  lex: дородо
  stem: дородо.
  gramm: A
@@ -35925,12 +35946,6 @@
  stem: дорошоо.
  paradigm: long-back-lab
  trans_ru: пренебрегать, недооценивать
-
--lexeme
- lex: дороһоо
- stem: дороһоо.
- gramm: ADV
- paradigm: unchangeable
 
 -lexeme
  lex: дорсогой
@@ -39904,8 +39919,8 @@
 -lexeme
  lex: дэргэдэ
  stem: дэргэдэ.
- gramm: ADV
- paradigm: unchangeable
+ gramm: POST
+ paradigm: poss-m(ni)-n
  trans_ru: при, возле, около, у, к
 
 -lexeme
@@ -40114,6 +40129,13 @@
  trans_ru: высоко, поверх
 
 -lexeme
+ lex: дээгүүр
+ stem: дээгүүр.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: по; через
+
+-lexeme
  lex: дээгүүрдэхэ
  gramm: V
  stem: дээгүүрдэ.|дээгүүрд.
@@ -40263,7 +40285,28 @@
  stem: дээрэ.
  gramm: ADV
  paradigm: unchangeable
- trans_ru: наверху, вверху, наверх, вверх, кверху
+ trans_ru: наверху; наверх; выше; лучше
+
+-lexeme
+ lex: дээрэ
+ stem: дээрэ.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: над, на
+
+-lexeme
+ lex: дээрээ
+ stem: дээрээ.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: на (что-то), к
+
+-lexeme
+ lex: дээрээһээ
+ stem: дээрээһээ.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: с; из-за
 
 -lexeme
  lex: дээрэгүй
@@ -42772,7 +42815,7 @@
  lex: ехэдэ
  stem: ехэдэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: высоко, много
 
 -lexeme
@@ -46407,7 +46450,7 @@
  lex: забһарта
  stem: забһарта.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: забһартай
@@ -48833,7 +48876,7 @@
  lex: захаар
  stem: захаар.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: захагүй
@@ -48846,7 +48889,7 @@
  lex: захада
  stem: захада.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: на, у, к
 
 -lexeme
@@ -49796,7 +49839,7 @@
  lex: зоргоор
  stem: зоргоор.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: зориг
@@ -52311,7 +52354,7 @@
  lex: зэмээр
  stem: зэмээр.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: зэмһэн
@@ -54806,7 +54849,7 @@
  lex: иимэһээ
  stem: иимэһээ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: иинаха
@@ -54848,7 +54891,7 @@
  lex: иишэ
  stem: иишэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: иишэдэ
@@ -57562,6 +57605,13 @@
  gramm: N
  paradigm: N-back-case
  trans_ru: среда
+
+-lexeme
+ lex: лэ
+ gramm: PART
+ stem: лэ.//лээ.
+ paradigm: Zero
+ trans_ru: же; уж; -ка
 
 -lexeme
  lex: лэбшэхэ
@@ -64410,7 +64460,7 @@
  lex: мүртэ
  stem: мүртэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: мүртэй
@@ -65030,7 +65080,7 @@
  lex: наана
  stem: наана.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: по эту сторону, на этой стороне
 
 -lexeme
@@ -70345,7 +70395,7 @@
  lex: нэрэһээ
  stem: нэрэһээ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: нэрүү
@@ -70969,7 +71019,7 @@
  lex: нюрганда
  stem: нюрганда.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: в отсутствие
 
 -lexeme
@@ -75900,7 +75950,7 @@
  lex: оруу
  stem: оруу.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: вхожий
 
 -lexeme
@@ -80022,8 +80072,8 @@
  lex: руу
  stem: руу.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог в, вниз по, по
+ paradigm: poss-m(ni)-n
+ trans_ru: в, вниз по, по
 
 -lexeme
  lex: рюмкэ
@@ -80269,8 +80319,8 @@
  lex: сааша
  stem: сааша.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог дальше чего-л
+ paradigm: poss-m(ni)-n
+ trans_ru: дальше
 
 -lexeme
  lex: саашада
@@ -83764,11 +83814,25 @@
  paradigm: predic_non_verbal
 
 -lexeme
+ lex: сооһоо
+ stem: сооһоо.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: из
+
+-lexeme
+ lex: соогоо
+ stem: соогоо.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: среди; за время
+
+-lexeme
  lex: соо
  stem: соо.
  gramm: POST
- paradigm: unchangeable
- trans_ru: образует глаголы со значением насквозь, напролёт
+ paradigm: poss-m(ni)-n
+ trans_ru: в
 
 -lexeme
  lex: сооглохо
@@ -83781,8 +83845,8 @@
  lex: соогуур
  stem: соогуур.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог по, через, сквозь
+ paradigm: poss-m(ni)-n
+ trans_ru: по, через, сквозь
 
 -lexeme
  lex: соожолхо
@@ -83865,7 +83929,7 @@
  lex: сооро
  stem: сооро.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: соорохо
@@ -88762,8 +88826,8 @@
  lex: талада
  stem: талада.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог на протяжении, течение
+ paradigm: poss-m(ni)-n
+ trans_ru: на протяжении, течение
 
 -lexeme
  lex: таларха
@@ -92086,7 +92150,7 @@
  lex: тойрон
  stem: тойрон.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: вокруг
 
 -lexeme
@@ -94089,14 +94153,14 @@
  lex: тула
  stem: тула.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог послеп. причастных форм для, за, ради, из-за
+ paradigm: poss-m(ni)-n
+ trans_ru: для, за, ради, из-за
 
 -lexeme
  lex: тулада
  stem: тулада.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: для, ради, из-за, вследствие, так как, поскольку, ввиду
 
 -lexeme
@@ -94724,8 +94788,8 @@
  lex: турша
  stem: турша.
  gramm: POST
- paradigm: unchangeable
- trans_ru: последующим дотор или соо, также и выступает как послелог в течение, продолжение, за, на протяжении
+ paradigm: poss-m(ni)-n
+ trans_ru: в течение, продолжение, за, на протяжении
 
 -lexeme
  lex: туршагархан
@@ -95163,15 +95227,15 @@
  lex: тухай
  stem: тухай.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог с, и основой о, об, про, по поводу, относительно
+ paradigm: poss-m(ni)-n
+ trans_ru: о, об, про, по поводу, относительно
 
 -lexeme
  lex: тухайда
  stem: тухайда.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог основой или о, об, про, по поводу, насчёт
+ paradigm: poss-m(ni)-n
+ trans_ru: о, об, про, по поводу, насчёт
 
 -lexeme
  lex: тухайлагдаха
@@ -95324,14 +95388,14 @@
  gramm: N
  stem: тушаа.
  paradigm: N-back-long-case
- trans_ru: послелог о, об, про, по поводу, относительно
+ trans_ru: 
 
 -lexeme
  lex: тушаа
  stem: тушаа.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог о, об, про, по поводу, относительно
+ paradigm: poss-m(ni)-n
+ trans_ru: о, об, про, по поводу, относительно
 
 -lexeme
  lex: тушаагдаха
@@ -97561,7 +97625,7 @@
  lex: тээгүүр
  stem: тээгүүр.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: по какой-л. стороне чего-л
 
 -lexeme
@@ -97727,14 +97791,22 @@
  lex: тээшэ
  stem: тээшэ.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог в сторону кого-чего-л., по направлению кого-чего-л., к, в, на
+ paradigm: poss-m(ni)-n
+ trans_ru: в сторону; к, в, на
+
+-lexeme
+ lex: тээшээ
+ stem: тээшээ.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: в сторону; к, в, на
 
 -lexeme
  lex: тээһээ
  stem: тээһээ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
+ trans_ru: в сторону; к, в, на
 
 -lexeme
  lex: тэһэлхэ
@@ -98605,8 +98677,8 @@
  lex: түлөө
  stem: түлөө.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог сп. за, для, ради, из-за
+ paradigm: poss-m(ni)-n
+ trans_ru: за, для, ради, из-за
 
 -lexeme
  lex: түлөөлгэ
@@ -102723,7 +102795,7 @@
  lex: урагша
  stem: урагша.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: урагшаа
@@ -103494,7 +103566,7 @@
  lex: урмаар
  stem: урмаар.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: благодаря, из-за
 
 -lexeme
@@ -103626,7 +103698,7 @@
  lex: уруу
  stem: уруу.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: вниз, книзу
 
 -lexeme
@@ -104898,7 +104970,7 @@
  lex: ушарһаа
  stem: ушарһаа.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: по причине, вследствие, из-за, так как
 
 -lexeme
@@ -106197,8 +106269,8 @@
  lex: хабаар
  stem: хабаар.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог сп. около
+ paradigm: poss-m(ni)-n
+ trans_ru: около
 
 -lexeme
  lex: хабаарха
@@ -107620,8 +107692,8 @@
  lex: хажуугаар
  stem: хажуугаар.
  gramm: POST
- paradigm: unchangeable
- trans_ru: по бокам чего-л
+ paradigm: poss-m(ni)-n
+ trans_ru: по бокам
 
 -lexeme
  lex: хажуугаархин
@@ -107755,7 +107827,7 @@
  lex: хажууһаа
  stem: хажууһаа.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: хазаадхилга
@@ -115023,7 +115095,7 @@
  lex: хирэдэ
  stem: хирэдэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
 
 -lexeme
  lex: хирэтэй
@@ -115050,7 +115122,7 @@
  lex: хирээр
  stem: хирээр.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: соответственно, сообразно, пропорционально, смотря
 
 -lexeme
@@ -115694,6 +115766,20 @@
  trans_ru: север, на севере, на север
 
 -lexeme
+ lex: хойно
+ stem: хойно.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: за; после; поскольку
+
+-lexeme
+ lex: хойноһоо
+ stem: хойноһоо.
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: вслед за
+
+-lexeme
  lex: хойнодохо
  gramm: V
  stem: хойнодо.|хойнод.
@@ -115727,18 +115813,6 @@
  gramm: ADV
  paradigm: unchangeable
  trans_ru: немного сзади
-
--lexeme
- lex: хойноһоо
- stem: хойноһоо.
- gramm: ADV
- paradigm: unchangeable
-
--lexeme
- lex: хойноһоо
- stem: хойноһоо.
- gramm: POST
- paradigm: unchangeable
 
 -lexeme
  lex: хойрог
@@ -115814,7 +115888,7 @@
  lex: хойшо
  stem: хойшо.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: на север, северу
 
 -lexeme
@@ -117261,7 +117335,7 @@
  lex: хоорондо
  stem: хоорондо.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: послелог
 
 -lexeme
@@ -119456,8 +119530,8 @@
  lex: худар
  stem: худар.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог в, на
+ paradigm: poss-m(ni)-n
+ trans_ru: в, на
 
 -lexeme
  lex: хударга
@@ -127262,8 +127336,8 @@
  lex: хүндэдэ
  stem: хүндэдэ.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог во имя кого-чего-л.. из почтения кому-л
+ paradigm: poss-m(ni)-n
+ trans_ru: во имя, из почтения
 
 -lexeme
  lex: хүндэдэхэ
@@ -128458,8 +128532,8 @@
  lex: хүрэтэр
  stem: хүрэтэр.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог, основным или имени, также с,, с до
+ paradigm: poss-m(ni)-n
+ trans_ru: до
 
 -lexeme
  lex: хүрэтэрхи
@@ -132439,8 +132513,8 @@
  lex: шарайда
  stem: шарайда.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог течение, продолжение
+ paradigm: poss-m(ni)-n
+ trans_ru: в течение, в продолжение
 
 -lexeme
  lex: шарайлха
@@ -137304,7 +137378,7 @@
  lex: шэнги
  stem: шэнги.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: словно, точно, вроде
 
 -lexeme
@@ -144228,8 +144302,8 @@
  lex: эсэстэ
  stem: эсэстэ.
  gramm: POST
- paradigm: unchangeable
- trans_ru: результате
+ paradigm: poss-m(ni)-n
+ trans_ru: в результате
 
 -lexeme
  lex: эсэсэй
@@ -144242,8 +144316,8 @@
  lex: эсэсээр
  stem: эсэсээр.
  gramm: POST
- paradigm: unchangeable
- trans_ru: в конце чего-л
+ paradigm: poss-m(ni)-n
+ trans_ru: в конце
 
 -lexeme
  lex: эсэхэ
@@ -144522,8 +144596,8 @@
  lex: эхеэр
  stem: эхеэр.
  gramm: POST
- paradigm: unchangeable
- trans_ru: начале чего-л
+ paradigm: poss-m(ni)-n
+ trans_ru: в начале
 
 -lexeme
  lex: эхи
@@ -147337,8 +147411,8 @@
  lex: янзаар
  stem: янзаар.
  gramm: POST
- paradigm: unchangeable
- trans_ru: употребляясь как послелог качественным именам, переводится по значению последних, которые при этом приобретают смысл наречия по образу, на манер чего-л. зөөлэн янзаар мягко, нежно
+ paradigm: poss-m(ni)-n
+ trans_ru: по образу, на манер
 
 -lexeme
  lex: янзагүй
@@ -149263,7 +149337,7 @@
  lex: үедэ
  stem: үедэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: во время, за время, период
 
 -lexeme
@@ -150944,8 +151018,8 @@
  lex: үмэнэ
  stem: үмэнэ.
  gramm: POST
- paradigm: unchangeable
- trans_ru: послелог перед кем-л., перед лицом кого-л
+ paradigm: poss-m(ni)-n
+ trans_ru: перед лицом
 
 -lexeme
  lex: үмөөрхэ
@@ -158294,7 +158368,7 @@
  lex: һүргэ
  stem: һүргэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: у, по, на
 
 -lexeme
@@ -158456,7 +158530,7 @@
  lex: һүүлдэ
  stem: һүүлдэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: в конце концов, наконец
 
 -lexeme
@@ -158668,7 +158742,7 @@
  lex: өөдэ
  stem: өөдэ.
  gramm: POST
- paradigm: unchangeable
+ paradigm: poss-m(ni)-n
  trans_ru: вверх, кверху
 
 -lexeme

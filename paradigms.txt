@@ -1,6 +1,12 @@
 ﻿-paradigm: unchangeable
  -flex: .
   gramm: 
+ -flex: .л
+  gramm: LEX:лэ:PART;trans_ru=же; уж; -ка
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .г
+  gramm: LEX:гү:PART;trans_ru=ли
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
 
 
 -paradigm: short-back
@@ -4892,22 +4898,27 @@
 
 
 -paradigm: predic_non_verbal
- -flex: .
+ -flex: .<.>
   gramm: 
- -flex: .би
+  paradigm: unchangeable
+ -flex: .би<.>
   gramm: pred,1,sg
+  paradigm: unchangeable
  -flex: .б
   gramm: pred,1,sg
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
  -flex: .бди
   gramm: pred,1,pl
+  paradigm: unchangeable
  -flex: .ши
   gramm: pred,2,sg
+  paradigm: unchangeable
  -flex: .ш
   gramm: pred,2,sg
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
  -flex: .та
   gramm: pred,2,pl
+  paradigm: unchangeable
  -flex: .т
   gramm: pred,2,pl
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
