@@ -23,6 +23,13 @@
  paradigm: unchangeable
 
 -lexeme
+ lex: аабы
+ stem: аабы.
+ gramm: PART
+ paradigm: predic_non_verbal
+ trans_ru: не может быть
+
+-lexeme
  lex: аабааха
  stem: аабааха.|аабаах.
  gramm: N
@@ -46,8 +53,8 @@
 -lexeme
  lex: аабза
  stem: аабза.
- gramm: ADV
- paradigm: unchangeable
+ gramm: PART
+ paradigm: predic_non_verbal
  trans_ru: наверно
 
 -lexeme
@@ -88,8 +95,8 @@
 -lexeme
  lex: аад
  stem: аад.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: CONJ
+ paradigm: unchangeable
  trans_ru: но
 
 -lexeme
@@ -145,7 +152,15 @@
  lex: аал
  stem: аал.
  gramm: PART
- paradigm: unchangeable
+ paradigm: predic_non_verbal
+ trans_ru: кажется, разве
+
+-lexeme
+ lex: алтай
+ stem: алтай.
+ gramm: PART
+ paradigm: predic_non_verbal
+ trans_ru: возможно
 
 -lexeme
  lex: аалалга
@@ -8306,15 +8321,10 @@
 
 -lexeme
  lex: ба
- gramm: N
- stem: ба.|б.
- paradigm: N-back-case
-
--lexeme
- lex: ба
  stem: ба.
  gramm: CONJ
  paradigm: unchangeable
+ trans_ru: и
 
 -lexeme
  lex: баа
@@ -18572,6 +18582,7 @@
  stem: бэ.
  gramm: PART
  paradigm: unchangeable
+ trans_ru: вопросительная частица
 
 -lexeme
  lex: бэгзылгэхэ
@@ -31175,6 +31186,13 @@
  gramm: PART
  paradigm: predic_non_verbal
  trans_ru: ли
+
+-lexeme
+ lex: бэзэ
+ stem: бэзэ.
+ gramm: PART
+ paradigm: predic_non_verbal
+ trans_ru: должно быть
 
 -lexeme
  lex: даа
@@ -53302,9 +53320,9 @@
 -lexeme
  lex: зүгөөр
  stem: зүгөөр.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: но, однако же, хотя
+ gramm: CONJ
+ paradigm: unchangeable
+ trans_ru: но, однако, хотя
 
 -lexeme
  lex: зүгөөргүй
@@ -57610,7 +57628,7 @@
  lex: лэ
  gramm: PART
  stem: лэ.//лээ.
- paradigm: Zero
+ paradigm: unchangeable
  trans_ru: же; уж; -ка
 
 -lexeme
@@ -105760,17 +105778,17 @@
 
 -lexeme
  lex: ха
- gramm: N
- stem: ха.|х.
- paradigm: N-back-case
- trans_ru: ха быть, употребляемое связки
+ gramm: PART
+ stem: ха.
+ paradigm: unchangeable
+ trans_ru: утвердительная частица
 
 -lexeme
  lex: хаа
  stem: хаа.
  gramm: ADV
  paradigm: unchangeable
- trans_ru: где, куда,употр. вразличных сочет
+ trans_ru: где, куда
 
 -lexeme
  lex: хаабари
@@ -107170,24 +107188,17 @@
 
 -lexeme
  lex: хада
- gramm: N
- stem: хада.|хад.
- paradigm: N-back-case
- trans_ru: словам, обозначающим время ещё, уже
-
--lexeme
- lex: хадаа
- gramm: N
- stem: хадаа.
- paradigm: N-back-long-case
- trans_ru: показатель подлежащего
+ stem: хада.
+ gramm: CONJ
+ paradigm: poss-m(ni)-n
+ trans_ru: если
 
 -lexeme
  lex: хадаа
  stem: хадаа.
  gramm: CONJ
- paradigm: unchangeable
- trans_ru: показатель подлежащего
+ paradigm: poss-m(ni)-n
+ trans_ru: если
 
 -lexeme
  lex: хадаатай
@@ -112003,9 +112014,9 @@
 -lexeme
  lex: харин
  stem: харин.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: союз однако, однако же, только, но, а
+ gramm: CONJ
+ paradigm: unchangeable
+ trans_ru: однако, но
 
 -lexeme
  lex: хариха
@@ -113847,10 +113858,10 @@
 
 -lexeme
  lex: хаяа
- gramm: N
+ gramm: PART
  stem: хаяа.
- paradigm: N-back-long-case
- trans_ru: частица модальная, выражающая предположение, часто вопросительным оттенком кажется,видно, пожалуй
+ paradigm: predic_non_verbal
+ trans_ru: видно, пожалуй
 
 -lexeme
  lex: хаяабша
@@ -135759,17 +135770,10 @@
 
 -lexeme
  lex: шуу
- gramm: N
- stem: шуу.
- paradigm: N-back-long-lab-case
- trans_ru: префиксоид при глаголах наречие совершенно, совсем
-
--lexeme
- lex: шуу
  stem: шуу.
  gramm: PART
- paradigm: unchangeable
- trans_ru: префиксоид при глаголах наречие совершенно, совсем
+ paradigm: predic_non_verbal
+ trans_ru: утвердительная частица
 
 -lexeme
  lex: шууд
@@ -145311,8 +145315,8 @@
  lex: юм
  stem: юм.
  gramm: PART
- paradigm: unchangeable
- trans_ru: начало
+ paradigm: predic_non_verbal
+ trans_ru: утвердительная частица
 
 -lexeme
  lex: юмбүү
@@ -150561,6 +150565,13 @@
 
 -lexeme
  lex: үлэ
+ gramm: PART
+ stem: үлэ.
+ paradigm: unchangeable
+ trans_ru: не
+
+-lexeme
+ lex: үлэ
  gramm: N
  stem: үлэ.|үл.
  paradigm: N-front-case
@@ -154098,9 +154109,10 @@
 
 -lexeme
  lex: һаа
- gramm: N
+ gramm: CONJ
  stem: һаа.
- paradigm: N-back-long-case
+ paradigm: poss-m(ni)-n
+ trans_ru: если
 
 -lexeme
  lex: һаагдаха
@@ -157869,27 +157881,10 @@
 
 -lexeme
  lex: һэн
- gramm: N
- stem: һэн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: һэн
- gramm: N
- stem: һэн.
- paradigm: N-front-velar-cons-case
-
--lexeme
- lex: һэн
- gramm: N
- stem: һэн.|һэ.|һ.
- paradigm: N-unstable_n-all-case
-
--lexeme
- lex: һэн
  stem: һэн.
  gramm: PART
- paradigm: unchangeable
+ paradigm: predic_non_verbal
+ trans_ru: утвердительная частица
 
 -lexeme
  lex: һэнгэргүй
