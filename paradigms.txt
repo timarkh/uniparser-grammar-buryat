@@ -4033,7 +4033,7 @@
   paradigm: num-nar
 
 
--paradigm: N-back-long-lab-case
+-paradigm: N-back-lab-long-case
  -flex: .<.>
   gramm: nom
   paradigm: poss-m(ni)-n

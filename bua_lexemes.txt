@@ -2388,7 +2388,7 @@
  lex: айдуу
  gramm: N
  stem: айдуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: боязнь, страх
 
 -lexeme
@@ -3333,7 +3333,7 @@
  lex: алдуу
  gramm: N
  stem: алдуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: ошибка
 
 -lexeme
@@ -9387,7 +9387,7 @@
  lex: бадуу
  gramm: N
  stem: бадуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: навязень
 
 -lexeme
@@ -16269,7 +16269,7 @@
  lex: булсуу
  gramm: N
  stem: булсуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: наконечник, головка
 
 -lexeme
@@ -16318,7 +16318,7 @@
  lex: булуу
  gramm: N
  stem: булуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
 
 -lexeme
  lex: булуудха
@@ -16853,7 +16853,7 @@
  lex: буруу
  gramm: N
  stem: буруу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: неправильный, неверный
 
 -lexeme
@@ -17535,7 +17535,7 @@
  lex: буу
  gramm: N
  stem: буу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: ружьё
 
 -lexeme
@@ -23480,7 +23480,7 @@
  lex: галзуу
  gramm: N
  stem: галзуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: бешеный, сумасшедший, беснующийся
 
 -lexeme
@@ -24730,7 +24730,7 @@
  lex: гасуу
  gramm: N
  stem: гасуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: спицы, кол
 
 -lexeme
@@ -27597,7 +27597,7 @@
  lex: гуу
  gramm: N
  stem: гуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: серебряная бляха
 
 -lexeme
@@ -37010,7 +37010,7 @@
  lex: дуу
  gramm: N
  stem: дуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: тпру
 
 -lexeme
@@ -43738,7 +43738,7 @@
  lex: жуу
  gramm: N
  stem: жуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
 
 -lexeme
  lex: жууза
@@ -46936,7 +46936,7 @@
  lex: залхуу
  gramm: N
  stem: залхуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: ленивый, нерадивый
 
 -lexeme
@@ -47572,7 +47572,7 @@
  lex: зантуу
  gramm: N
  stem: зантуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: железное ведро, жестяной чайник
 
 -lexeme
@@ -50732,7 +50732,7 @@
  lex: зуу
  gramm: N
  stem: зуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: статуя Будды
 
 -lexeme
@@ -56846,7 +56846,7 @@
  lex: луу
  gramm: N
  stem: луу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: дракон
 
 -lexeme
@@ -70257,7 +70257,7 @@
  lex: нюруу
  gramm: N
  stem: нюруу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: недурной, подходящий, сносный
 
 -lexeme
@@ -80901,7 +80901,7 @@
  lex: сарбуу
  gramm: N
  stem: сарбуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: запястье
 
 -lexeme
@@ -98674,7 +98674,7 @@
  lex: углуу
  gramm: N
  stem: углуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: угол
 
 -lexeme
@@ -102443,7 +102443,7 @@
  lex: уу
  gramm: N
  stem: уу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: выражающее узнавание, удовольствие, радость
 
 -lexeme
@@ -105297,7 +105297,7 @@
  lex: хагсуу
  gramm: N
  stem: хагсуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: ненастье
 
 -lexeme
@@ -105848,7 +105848,7 @@
  lex: хажуу
  gramm: N
  stem: хажуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: бок, сторона
 
 -lexeme
@@ -122520,7 +122520,7 @@
  lex: хюруу
  gramm: N
  stem: хюруу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: иней
 
 -lexeme
@@ -128656,7 +128656,7 @@
  lex: шабхаруу
  gramm: N
  stem: шабхаруу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: остатки
 
 -lexeme
@@ -130068,7 +130068,7 @@
  lex: шандаруу
  gramm: N
  stem: шандаруу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: белый пепел
 
 -lexeme
@@ -133300,7 +133300,7 @@
  lex: шуу
  gramm: N
  stem: шуу.
- paradigm: N-back-long-lab-case
+ paradigm: N-back-lab-long-case
  trans_ru: префиксоид при глаголах наречие совершенно, совсем
 
 -lexeme
