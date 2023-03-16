@@ -1,7 +1,39 @@
 ﻿-paradigm: unchangeable
  -flex: .
   gramm: 
+ -flex: .л
+  gramm: LEX:лэ:PART;trans_ru=же; уж; -ка
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .г
+  gramm: LEX:гү:PART;trans_ru=ли
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .б
+  gramm: LEX:бэ:PART;trans_ru=вопросительная частица
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .шье
+  gramm: LEX:шье:PART;trans_ru=хотя; и... и
 
+-paradigm: V-pers
+ -flex: .<.>
+  gramm: 3,sg
+ -flex: .д<.>
+  gramm: 3,pl
+ -flex: .б<.>//.м<.>
+  gramm: 1,sg
+ -flex: .бди<.>
+  gramm: 1,pl
+ -flex: .ш<.>
+  gramm: 2,sg
+ -flex: .т<.>
+  gramm: 2,pl
+ paradigm: unchangeable
+
+-paradigm: V-pers-neg
+ -flex: .<.>
+  gramm: 
+ -flex: .гүй<.>
+  gramm: neg
+ paradigm: V-pers
 
 -paradigm: short-back
  -flex: <0>.я//<0>.ябди
@@ -40,42 +72,15 @@
   gramm: opt,2,pl
  -flex: <0>.һай
   gramm: opt,3
- -flex: <0>.на
-  gramm: prs,3,sg
- -flex: <0>.над
-  gramm: prs,3,pl
- -flex: <0>.наб//<0>.нам
-  gramm: prs,1,sg
- -flex: <0>.набди
-  gramm: prs,1,pl
- -flex: <0>.наш
-  gramm: prs,2,sg
- -flex: <0>.нат
-  gramm: prs,2,pl
- -flex: <0>.ба
-  gramm: pst,3,sg
- -flex: <0>.бад
-  gramm: pst,3,pl
- -flex: <0>.баб//<0>.бам
-  gramm: pst,1,sg
- -flex: <0>.бабди
-  gramm: pst,1,pl
- -flex: <0>.баш
-  gramm: pst,2,sg
- -flex: <0>.бат
-  gramm: pst,2,pl
- -flex: <0>.лай
-  gramm: pst2,3,sg
- -flex: <0>.лайд
-  gramm: pst2,3,pl
- -flex: <0>.лайб
-  gramm: pst2,1,sg
- -flex: <0>.лайбди
-  gramm: pst2,1,pl
- -flex: <0>.лайш
-  gramm: pst2,2,sg
- -flex: <0>.лайт
-  gramm: pst2,2,pl
+ -flex: <0>.на<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.ба<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лай<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.аа
   gramm: ptcp,nonpast,3
  -flex: <1>.ааб//<1>.ааби
@@ -248,42 +253,15 @@
   gramm: opt,2,pl
  -flex: <0>.һой
   gramm: opt,3
- -flex: <0>.но
-  gramm: prs,3,sg
- -flex: <0>.нод
-  gramm: prs,3,pl
- -flex: <0>.ноб//<0>.ном
-  gramm: prs,1,sg
- -flex: <0>.нобди
-  gramm: prs,1,pl
- -flex: <0>.нош
-  gramm: prs,2,sg
- -flex: <0>.нот
-  gramm: prs,2,pl
- -flex: <0>.бо
-  gramm: pst,3,sg
- -flex: <0>.бод
-  gramm: pst,3,pl
- -flex: <0>.боб//<0>.бом
-  gramm: pst,1,sg
- -flex: <0>.бобди
-  gramm: pst,1,pl
- -flex: <0>.бош
-  gramm: pst,2,sg
- -flex: <0>.бот
-  gramm: pst,2,pl
- -flex: <0>.лой
-  gramm: pst2,3,sg
- -flex: <0>.лойд
-  gramm: pst2,3,pl
- -flex: <0>.лойб
-  gramm: pst2,1,sg
- -flex: <0>.лойбди
-  gramm: pst2,1,pl
- -flex: <0>.лойш
-  gramm: pst2,2,sg
- -flex: <0>.лойт
-  gramm: pst2,2,pl
+ -flex: <0>.но<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бо<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лой<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.оо
   gramm: ptcp,nonpast,3
  -flex: <1>.ооб//<1>.ооби
@@ -456,42 +434,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.ээ
   gramm: ptcp,nonpast,3
  -flex: <1>.ээб//<1>.ээби
@@ -664,42 +615,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.өө
   gramm: ptcp,nonpast,3
  -flex: <1>.өөб//<1>.өөби
@@ -877,42 +801,15 @@
   gramm: opt,2,pl
  -flex: <0>.һай
   gramm: opt,3
- -flex: <0>.на
-  gramm: prs,3,sg
- -flex: <0>.над
-  gramm: prs,3,pl
- -flex: <0>.наб//<0>.нам
-  gramm: prs,1,sg
- -flex: <0>.набди
-  gramm: prs,1,pl
- -flex: <0>.наш
-  gramm: prs,2,sg
- -flex: <0>.нат
-  gramm: prs,2,pl
- -flex: <0>.ба
-  gramm: pst,3,sg
- -flex: <0>.бад
-  gramm: pst,3,pl
- -flex: <0>.баб//<0>.бам
-  gramm: pst,1,sg
- -flex: <0>.бабди
-  gramm: pst,1,pl
- -flex: <0>.баш
-  gramm: pst,2,sg
- -flex: <0>.бат
-  gramm: pst,2,pl
- -flex: <0>.лай
-  gramm: pst2,3,sg
- -flex: <0>.лайд
-  gramm: pst2,3,pl
- -flex: <0>.лайб
-  gramm: pst2,1,sg
- -flex: <0>.лайбди
-  gramm: pst2,1,pl
- -flex: <0>.лайш
-  gramm: pst2,2,sg
- -flex: <0>.лайт
-  gramm: pst2,2,pl
+ -flex: <0>.на<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.ба<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лай<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.яа
   gramm: ptcp,nonpast,3
  -flex: <1>.яаб//<1>.яаби
@@ -1085,42 +982,15 @@
   gramm: opt,2,pl
  -flex: <0>.һой
   gramm: opt,3
- -flex: <0>.но
-  gramm: prs,3,sg
- -flex: <0>.нод
-  gramm: prs,3,pl
- -flex: <0>.ноб//<0>.ном
-  gramm: prs,1,sg
- -flex: <0>.нобди
-  gramm: prs,1,pl
- -flex: <0>.нош
-  gramm: prs,2,sg
- -flex: <0>.нот
-  gramm: prs,2,pl
- -flex: <0>.бо
-  gramm: pst,3,sg
- -flex: <0>.бод
-  gramm: pst,3,pl
- -flex: <0>.боб//<0>.бом
-  gramm: pst,1,sg
- -flex: <0>.бобди
-  gramm: pst,1,pl
- -flex: <0>.бош
-  gramm: pst,2,sg
- -flex: <0>.бот
-  gramm: pst,2,pl
- -flex: <0>.лой
-  gramm: pst2,3,sg
- -flex: <0>.лойд
-  gramm: pst2,3,pl
- -flex: <0>.лойб
-  gramm: pst2,1,sg
- -flex: <0>.лойбди
-  gramm: pst2,1,pl
- -flex: <0>.лойш
-  gramm: pst2,2,sg
- -flex: <0>.лойт
-  gramm: pst2,2,pl
+ -flex: <0>.но<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бо<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лой<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.ёо
   gramm: ptcp,nonpast,3
  -flex: <1>.ёоб//<1>.ёоби
@@ -1293,42 +1163,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.еэ
   gramm: ptcp,nonpast,3
  -flex: <1>.еэб//<1>.еэби
@@ -1501,42 +1344,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.ёө
   gramm: ptcp,nonpast,3
  -flex: <1>.ёөб//<1>.ёөби
@@ -1718,42 +1534,15 @@
   gramm: opt,2,pl
  -flex: <0>.һай
   gramm: opt,3
- -flex: <0>.на
-  gramm: prs,3,sg
- -flex: <0>.над
-  gramm: prs,3,pl
- -flex: <0>.наб//<0>.нам
-  gramm: prs,1,sg
- -flex: <0>.набди
-  gramm: prs,1,pl
- -flex: <0>.наш
-  gramm: prs,2,sg
- -flex: <0>.нат
-  gramm: prs,2,pl
- -flex: <0>.ба
-  gramm: pst,3,sg
- -flex: <0>.бад
-  gramm: pst,3,pl
- -flex: <0>.баб//<0>.бам
-  gramm: pst,1,sg
- -flex: <0>.бабди
-  gramm: pst,1,pl
- -flex: <0>.баш
-  gramm: pst,2,sg
- -flex: <0>.бат
-  gramm: pst,2,pl
- -flex: <0>.лай
-  gramm: pst2,3,sg
- -flex: <0>.лайд
-  gramm: pst2,3,pl
- -flex: <0>.лайб
-  gramm: pst2,1,sg
- -flex: <0>.лайбди
-  gramm: pst2,1,pl
- -flex: <0>.лайш
-  gramm: pst2,2,sg
- -flex: <0>.лайт
-  gramm: pst2,2,pl
+ -flex: <0>.на<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.ба<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лай<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.яа
   gramm: ptcp,nonpast,3
  -flex: <1>.яаб//<1>.яаби
@@ -1926,42 +1715,15 @@
   gramm: opt,2,pl
  -flex: <0>.һой
   gramm: opt,3
- -flex: <0>.но
-  gramm: prs,3,sg
- -flex: <0>.нод
-  gramm: prs,3,pl
- -flex: <0>.ноб//<0>.ном
-  gramm: prs,1,sg
- -flex: <0>.нобди
-  gramm: prs,1,pl
- -flex: <0>.нош
-  gramm: prs,2,sg
- -flex: <0>.нот
-  gramm: prs,2,pl
- -flex: <0>.бо
-  gramm: pst,3,sg
- -flex: <0>.бод
-  gramm: pst,3,pl
- -flex: <0>.боб//<0>.бом
-  gramm: pst,1,sg
- -flex: <0>.бобди
-  gramm: pst,1,pl
- -flex: <0>.бош
-  gramm: pst,2,sg
- -flex: <0>.бот
-  gramm: pst,2,pl
- -flex: <0>.лой
-  gramm: pst2,3,sg
- -flex: <0>.лойд
-  gramm: pst2,3,pl
- -flex: <0>.лойб
-  gramm: pst2,1,sg
- -flex: <0>.лойбди
-  gramm: pst2,1,pl
- -flex: <0>.лойш
-  gramm: pst2,2,sg
- -flex: <0>.лойт
-  gramm: pst2,2,pl
+ -flex: <0>.но<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бо<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лой<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.ёо
   gramm: ptcp,nonpast,3
  -flex: <1>.ёоб//<1>.ёоби
@@ -2134,42 +1896,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.еэ
   gramm: ptcp,nonpast,3
  -flex: <1>.еэб//<1>.еэби
@@ -2342,42 +2077,15 @@
   gramm: opt,2,pl
  -flex: <0>.һэй
   gramm: opt,3
- -flex: <0>.нэ
-  gramm: prs,3,sg
- -flex: <0>.нэд
-  gramm: prs,3,pl
- -flex: <0>.нэб//<0>.нэм
-  gramm: prs,1,sg
- -flex: <0>.нэбди
-  gramm: prs,1,pl
- -flex: <0>.нэш
-  gramm: prs,2,sg
- -flex: <0>.нэт
-  gramm: prs,2,pl
- -flex: <0>.бэ
-  gramm: pst,3,sg
- -flex: <0>.бэд
-  gramm: pst,3,pl
- -flex: <0>.бэб//<0>.бэм
-  gramm: pst,1,sg
- -flex: <0>.бэбди
-  gramm: pst,1,pl
- -flex: <0>.бэш
-  gramm: pst,2,sg
- -flex: <0>.бэт
-  gramm: pst,2,pl
- -flex: <0>.лэй
-  gramm: pst2,3,sg
- -flex: <0>.лэйд
-  gramm: pst2,3,pl
- -flex: <0>.лэйб
-  gramm: pst2,1,sg
- -flex: <0>.лэйбди
-  gramm: pst2,1,pl
- -flex: <0>.лэйш
-  gramm: pst2,2,sg
- -flex: <0>.лэйт
-  gramm: pst2,2,pl
+ -flex: <0>.нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: <0>.бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: <0>.лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: <1>.ёө
   gramm: ptcp,nonpast,3
  -flex: <1>.ёөб//<1>.ёөби
@@ -2555,42 +2263,15 @@
   gramm: opt,2,pl
  -flex: .һай
   gramm: opt,3
- -flex: .на
-  gramm: prs,3,sg
- -flex: .над
-  gramm: prs,3,pl
- -flex: .наб//.нам
-  gramm: prs,1,sg
- -flex: .набди
-  gramm: prs,1,pl
- -flex: .наш
-  gramm: prs,2,sg
- -flex: .нат
-  gramm: prs,2,pl
- -flex: .ба
-  gramm: pst,3,sg
- -flex: .бад
-  gramm: pst,3,pl
- -flex: .баб//.бам
-  gramm: pst,1,sg
- -flex: .бабди
-  gramm: pst,1,pl
- -flex: .баш
-  gramm: pst,2,sg
- -flex: .бат
-  gramm: pst,2,pl
- -flex: .лай
-  gramm: pst2,3,sg
- -flex: .лайд
-  gramm: pst2,3,pl
- -flex: .лайб
-  gramm: pst2,1,sg
- -flex: .лайбди
-  gramm: pst2,1,pl
- -flex: .лайш
-  gramm: pst2,2,sg
- -flex: .лайт
-  gramm: pst2,2,pl
+ -flex: .на<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: .ба<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: .лай<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: .гаа
   gramm: ptcp,nonpast,3
  -flex: .гааб//.гааби
@@ -2763,42 +2444,15 @@
   gramm: opt,2,pl
  -flex: .һой
   gramm: opt,3
- -flex: .но
-  gramm: prs,3,sg
- -flex: .нод
-  gramm: prs,3,pl
- -flex: .ноб//.ном
-  gramm: prs,1,sg
- -flex: .нобди
-  gramm: prs,1,pl
- -flex: .нош
-  gramm: prs,2,sg
- -flex: .нот
-  gramm: prs,2,pl
- -flex: .бо
-  gramm: pst,3,sg
- -flex: .бод
-  gramm: pst,3,pl
- -flex: .боб//.бом
-  gramm: pst,1,sg
- -flex: .бобди
-  gramm: pst,1,pl
- -flex: .бош
-  gramm: pst,2,sg
- -flex: .бот
-  gramm: pst,2,pl
- -flex: .лой
-  gramm: pst2,3,sg
- -flex: .лойд
-  gramm: pst2,3,pl
- -flex: .лойб
-  gramm: pst2,1,sg
- -flex: .лойбди
-  gramm: pst2,1,pl
- -flex: .лойш
-  gramm: pst2,2,sg
- -flex: .лойт
-  gramm: pst2,2,pl
+ -flex: .но<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: .бо<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: .лой<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: .гоо
   gramm: ptcp,nonpast,3
  -flex: .гооб//.гооби
@@ -2971,42 +2625,15 @@
   gramm: opt,2,pl
  -flex: .һэй
   gramm: opt,3
- -flex: .нэ
-  gramm: prs,3,sg
- -flex: .нэд
-  gramm: prs,3,pl
- -flex: .нэб//.нэм
-  gramm: prs,1,sg
- -flex: .нэбди
-  gramm: prs,1,pl
- -flex: .нэш
-  gramm: prs,2,sg
- -flex: .нэт
-  gramm: prs,2,pl
- -flex: .бэ
-  gramm: pst,3,sg
- -flex: .бэд
-  gramm: pst,3,pl
- -flex: .бэб//.бэм
-  gramm: pst,1,sg
- -flex: .бэбди
-  gramm: pst,1,pl
- -flex: .бэш
-  gramm: pst,2,sg
- -flex: .бэт
-  gramm: pst,2,pl
- -flex: .лэй
-  gramm: pst2,3,sg
- -flex: .лэйд
-  gramm: pst2,3,pl
- -flex: .лэйб
-  gramm: pst2,1,sg
- -flex: .лэйбди
-  gramm: pst2,1,pl
- -flex: .лэйш
-  gramm: pst2,2,sg
- -flex: .лэйт
-  gramm: pst2,2,pl
+ -flex: .нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: .бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: .лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: .гээ
   gramm: ptcp,nonpast,3
  -flex: .гээб//.гээби
@@ -3179,42 +2806,15 @@
   gramm: opt,2,pl
  -flex: .һэй
   gramm: opt,3
- -flex: .нэ
-  gramm: prs,3,sg
- -flex: .нэд
-  gramm: prs,3,pl
- -flex: .нэб//.нэм
-  gramm: prs,1,sg
- -flex: .нэбди
-  gramm: prs,1,pl
- -flex: .нэш
-  gramm: prs,2,sg
- -flex: .нэт
-  gramm: prs,2,pl
- -flex: .бэ
-  gramm: pst,3,sg
- -flex: .бэд
-  gramm: pst,3,pl
- -flex: .бэб//.бэм
-  gramm: pst,1,sg
- -flex: .бэбди
-  gramm: pst,1,pl
- -flex: .бэш
-  gramm: pst,2,sg
- -flex: .бэт
-  gramm: pst,2,pl
- -flex: .лэй
-  gramm: pst2,3,sg
- -flex: .лэйд
-  gramm: pst2,3,pl
- -flex: .лэйб
-  gramm: pst2,1,sg
- -flex: .лэйбди
-  gramm: pst2,1,pl
- -flex: .лэйш
-  gramm: pst2,2,sg
- -flex: .лэйт
-  gramm: pst2,2,pl
+ -flex: .нэ<.>
+  gramm: prs
+  paradigm: V-pers-neg
+ -flex: .бэ<.>
+  gramm: pst
+  paradigm: V-pers-neg
+ -flex: .лэй<.>
+  gramm: pst2
+  paradigm: V-pers-neg
  -flex: .гөө
   gramm: ptcp,nonpast,3
  -flex: .гөөб//.гөөби
@@ -4861,28 +4461,58 @@
 
 
 -paradigm: poss-m(ni)-n
- -flex: .
+ -flex: .<.>
   gramm: 
- -flex: .м//.мни
+ -flex: .м<.>//.мни<.>
   gramm: poss_1sg
- -flex: .шни
+ -flex: .шни<.>
   gramm: poss_2sg
- -flex: .мнай
+ -flex: .мнай<.>
   gramm: poss_1pl
- -flex: .тнай
+ -flex: .тнай<.>
   gramm: poss_2pl
- -flex: .нь
+ -flex: .нь<.>
   gramm: poss_3
+ paradigm: predic_non_verbal
+
 -paradigm: poss-ni-n
- -flex: .
+ -flex: .<.>
   gramm: 
- -flex: .ни
+ -flex: .ни<.>
   gramm: poss_1sg
- -flex: .шни
+ -flex: .шни<.>
   gramm: poss_2sg
- -flex: .най
+ -flex: .най<.>
   gramm: poss_1pl
- -flex: .тнай
+ -flex: .тнай<.>
   gramm: poss_2pl
- -flex: .нь
+ -flex: .нь<.>
   gramm: poss_3
+ paradigm: predic_non_verbal
+
+
+-paradigm: predic_non_verbal
+ -flex: .<.>
+  gramm: 
+  paradigm: unchangeable
+ -flex: .би<.>
+  gramm: pred,1,sg
+  paradigm: unchangeable
+ -flex: .б
+  gramm: pred,1,sg
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .бди
+  gramm: pred,1,pl
+  paradigm: unchangeable
+ -flex: .ши
+  gramm: pred,2,sg
+  paradigm: unchangeable
+ -flex: .ш
+  gramm: pred,2,sg
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .та
+  gramm: pred,2,pl
+  paradigm: unchangeable
+ -flex: .т
+  gramm: pred,2,pl
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
