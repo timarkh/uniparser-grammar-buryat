@@ -971,6 +971,13 @@
  trans_ru: невестка
 
 -lexeme
+ lex: абяа
+ gramm: N
+ stem: абяа.
+ paradigm: N-back-long-case
+ trans_ru: звук
+
+-lexeme
  lex: абяагүй
  stem: абяагүй.
  gramm: A
@@ -4571,22 +4578,15 @@
  lex: амин
  gramm: N
  stem: амин.
- paradigm: N-back-ng-case
- trans_ru: дыхание
-
--lexeme
- lex: амин
- gramm: N
- stem: амин.
  paradigm: N-back-velar-cons-case
- trans_ru: дыхание
+ trans_ru: жизнь, дыхание
 
 -lexeme
  lex: амин
  gramm: N
- stem: амин.|ами.|ами.
- paradigm: N-unstable_n-all-case
- trans_ru: дыхание
+ stem: амин.|ами.|ам.
+ paradigm: N-back-unstable_n-case
+ trans_ru: жизнь, дыхание
 
 -lexeme
  lex: аминай
@@ -11926,24 +11926,10 @@
 
 -lexeme
  lex: басаган
- gramm: N
- stem: басаган.
- paradigm: N-back-ng-case
- trans_ru: дочь
-
--lexeme
- lex: басаган
- gramm: N
- stem: басаган.
- paradigm: N-back-velar-cons-case
- trans_ru: дочь
-
--lexeme
- lex: басаган
- gramm: N
+ gramm: N,anim,hum
  stem: басаган.|басага.|басаг.
- paradigm: N-unstable_n-all-case
- trans_ru: дочь
+ paradigm: N-back-unstable_n-case
+ trans_ru: девушка, девочка; дочь
 
 -lexeme
  lex: басагансар
@@ -16188,9 +16174,9 @@
 
 -lexeme
  lex: булан
+ gramm: N
  stem: булан.
- gramm: A
- paradigm: predic_non_verbal
+ paradigm: N-back-velar-cons-case
  trans_ru: угол
 
 -lexeme
@@ -23594,8 +23580,8 @@
 -lexeme
  lex: газааша
  stem: газааша.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: ADV
+ paradigm: unchangeable
  trans_ru: наружу
 
 -lexeme
@@ -24746,7 +24732,7 @@
  lex: гар
  gramm: N
  stem: гар.
- paradigm: N-back-velar-cons-case
+ paradigm: N-back-velar-cons-case-nuud
  trans_ru: руки, рука
 
 -lexeme
@@ -28698,21 +28684,10 @@
 
 -lexeme
  lex: гэдэһэн
- gramm: N
- stem: гэдэһэн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: гэдэһэн
- gramm: N
- stem: гэдэһэн.
- paradigm: N-front-velar-cons-case
-
--lexeme
- lex: гэдэһэн
- gramm: N
+ gramm: N,body
  stem: гэдэһэн.|гэдэһэ.|гэдэһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-front-unstable_n-case
+ trans_ru: живот; кишки, внутренности
 
 -lexeme
  lex: гэдэһэнэй
@@ -32454,24 +32429,10 @@
 
 -lexeme
  lex: дайсан
- gramm: N
- stem: дайсан.
- paradigm: N-back-ng-case
- trans_ru: враг
-
--lexeme
- lex: дайсан
- gramm: N
- stem: дайсан.
- paradigm: N-back-velar-cons-case
- trans_ru: враг
-
--lexeme
- lex: дайсан
- gramm: N
+ gramm: N,anim,hum
  stem: дайсан.|дайса.|дайс.
- paradigm: N-unstable_n-all-case
- trans_ru: враг
+ paradigm: N-back-unstable_n-case
+ trans_ru: враг, неприятель
 
 -lexeme
  lex: дайсанай
@@ -37309,23 +37270,9 @@
 -lexeme
  lex: дуран
  gramm: N
- stem: дуран.
- paradigm: N-back-ng-case
- trans_ru: желание, охота, воля
-
--lexeme
- lex: дуран
- gramm: N
- stem: дуран.
- paradigm: N-back-velar-cons-case
- trans_ru: желание, охота, воля
-
--lexeme
- lex: дуран
- gramm: N
  stem: дуран.|дура.|дур.
- paradigm: N-unstable_n-all-case
- trans_ru: желание, охота, воля
+ paradigm: N-back-unstable_n-case
+ trans_ru: любовь; желание, охота, воля
 
 -lexeme
  lex: дурасхаал
@@ -46537,21 +46484,10 @@
 
 -lexeme
  lex: загаһан
- gramm: N
- stem: загаһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: загаһан
- gramm: N
- stem: загаһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: загаһан
- gramm: N
+ gramm: N,anim
  stem: загаһан.|загаһа.|загаһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: рыба
 
 -lexeme
  lex: загаһанай
@@ -49340,6 +49276,13 @@
  trans_ru: не терзаясь, без тревог, спокойно
 
 -lexeme
+ lex: зоболон
+ gramm: N
+ stem: зоболон.
+ paradigm: N-back-lab-ng-case
+ trans_ru: мучение, страдание
+
+-lexeme
  lex: зоболонто
  stem: зоболонто.
  gramm: A
@@ -50113,10 +50056,10 @@
 
 -lexeme
  lex: зосоо
+ gramm: N
  stem: зосоо.
- gramm: ADV
- paradigm: unchangeable
- trans_ru: внутри, внутренность
+ paradigm: N-back-lab-long-case
+ trans_ru: внутренность, нутро
 
 -lexeme
  lex: зосоогуур
@@ -53800,23 +53743,9 @@
 
 -lexeme
  lex: зүрхэн
- gramm: N
- stem: зүрхэн.
- paradigm: N-front-ng-case
- trans_ru: сердце
-
--lexeme
- lex: зүрхэн
- gramm: N
- stem: зүрхэн.
- paradigm: N-front-velar-cons-case
- trans_ru: сердце
-
--lexeme
- lex: зүрхэн
- gramm: N
+ gramm: N,body
  stem: зүрхэн.|зүрхэ.|зүрх.
- paradigm: N-unstable_n-all-case
+ paradigm: N-front-unstable_n-case
  trans_ru: сердце
 
 -lexeme
@@ -60989,24 +60918,10 @@
 
 -lexeme
  lex: морин
- gramm: N
- stem: морин.
- paradigm: N-back-lab-velar-cons-case
- trans_ru: лошадь, конь, мерин
-
--lexeme
- lex: морин
- gramm: N
- stem: морин.
- paradigm: N-back-ng-case
- trans_ru: лошадь, конь, мерин
-
--lexeme
- lex: морин
- gramm: N
- stem: морин.|мори.|мори.
- paradigm: N-unstable_n-all-case
- trans_ru: лошадь, конь, мерин
+ gramm: N,anim
+ stem: морин.|мори.|мор.
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: конь, лошадь
 
 -lexeme
  lex: мориной
@@ -63552,24 +63467,10 @@
 
 -lexeme
  lex: мяхан
- gramm: N
- stem: мяхан.
- paradigm: N-back-ng-case
- trans_ru: толстая кишка хурса мяхан жирное мясо
-
--lexeme
- lex: мяхан
- gramm: N
- stem: мяхан.
- paradigm: N-back-velar-cons-case
- trans_ru: толстая кишка хурса мяхан жирное мясо
-
--lexeme
- lex: мяхан
- gramm: N
+ gramm: N,body
  stem: мяхан.|мяха.|мях.
- paradigm: N-unstable_n-all-case
- trans_ru: толстая кишка хурса мяхан жирное мясо
+ paradigm: N-back-unstable_n-case
+ trans_ru: мясо
 
 -lexeme
  lex: мяханай
@@ -67486,20 +67387,9 @@
 -lexeme
  lex: наһан
  gramm: N
- stem: наһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: наһан
- gramm: N
- stem: наһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: наһан
- gramm: N
  stem: наһан.|наһа.|наһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: возраст, годы; жизнь, век
 
 -lexeme
  lex: наһанай
@@ -68795,21 +68685,10 @@
 
 -lexeme
  lex: нооһон
- gramm: N
- stem: нооһон.
- paradigm: N-back-lab-velar-cons-case
-
--lexeme
- lex: нооһон
- gramm: N
- stem: нооһон.
- paradigm: N-back-ng-case
-
--lexeme
- lex: нооһон
- gramm: N
+ gramm: N,body
  stem: нооһон.|нооһо.|нооһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: шерсть
 
 -lexeme
  lex: нооһоной
@@ -75770,17 +75649,17 @@
 
 -lexeme
  lex: орон
+ gramm: N
  stem: орон.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: объект, предмет
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: страна, место; кровать
 
 -lexeme
  lex: орондо
  stem: орондо.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: послелог имени вместо кого-чего-л., взамен
+ gramm: POST
+ paradigm: poss-m(ni)-n
+ trans_ru: имени; вместо
 
 -lexeme
  lex: оронсог
@@ -75841,20 +75720,9 @@
 -lexeme
  lex: орооһон
  gramm: N
- stem: орооһон.
- paradigm: N-back-lab-velar-cons-case
-
--lexeme
- lex: орооһон
- gramm: N
- stem: орооһон.
- paradigm: N-back-ng-case
-
--lexeme
- lex: орооһон
- gramm: N
  stem: орооһон.|орооһо.|орооһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: зерно, пшеница
 
 -lexeme
  lex: орооһоной
@@ -86412,7 +86280,7 @@
 
 -lexeme
  lex: сэрэгшэ
- gramm: N
+ gramm: N,anim,hum
  stem: сэрэгшэ.|сэрэгш.
  paradigm: N-front-case
  trans_ru: воин, боец
@@ -86597,10 +86465,10 @@
 
 -lexeme
  lex: сэхэ
- gramm: V
- stem: сэ.|с.
- paradigm: short-front
- trans_ru: X последующим урдаһаа или без него прямо
+ gramm: N
+ stem: сэхэ.|сэх.
+ paradigm: N-front-case
+ trans_ru: правда
 
 -lexeme
  lex: сэхэ
@@ -93199,20 +93067,9 @@
 -lexeme
  lex: тооһон
  gramm: N
- stem: тооһон.
- paradigm: N-back-lab-velar-cons-case
-
--lexeme
- lex: тооһон
- gramm: N
- stem: тооһон.
- paradigm: N-back-ng-case
-
--lexeme
- lex: тооһон
- gramm: N
  stem: тооһон.|тооһо.|тооһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: пыль
 
 -lexeme
  lex: тооһорхо
@@ -93729,20 +93586,9 @@
 -lexeme
  lex: тоһон
  gramm: N
- stem: тоһон.
- paradigm: N-back-lab-velar-cons-case
-
--lexeme
- lex: тоһон
- gramm: N
- stem: тоһон.
- paradigm: N-back-ng-case
-
--lexeme
- lex: тоһон
- gramm: N
  stem: тоһон.|тоһо.|тоһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: масло
 
 -lexeme
  lex: тоһоной
@@ -95539,11 +95385,11 @@
  trans_ru: ., сустав
 
 -lexeme
- lex: туяан
- stem: туяан.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: луч, лучи света
+ lex: туяа
+ gramm: N
+ stem: туяа.
+ paradigm: N-back-long-case
+ trans_ru: луч
 
 -lexeme
  lex: туяаралга
@@ -105268,20 +105114,9 @@
 -lexeme
  lex: уһан
  gramm: N
- stem: уһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: уһан
- gramm: N
- stem: уһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: уһан
- gramm: N
  stem: уһан.|уһа.|уһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: вода
 
 -lexeme
  lex: уһанай
@@ -114669,24 +114504,10 @@
  paradigm: N-front-velar-cons-case
 
 -lexeme
- lex: хилээмэн
- gramm: N
- stem: хилээмэн.
- paradigm: N-front-ng-case
- trans_ru: хлеб
-
--lexeme
- lex: хилээмэн
- gramm: N
- stem: хилээмэн.
- paradigm: N-front-velar-cons-case
- trans_ru: хлеб
-
--lexeme
- lex: хилээмэн
- gramm: N
- stem: хилээмэн.|хилээмэ.|хилээм.
- paradigm: N-unstable_n-all-case
+ lex: хилээмэ
+ gramm: N,rus
+ stem: хилээмэ.|хилээм.
+ paradigm: N-front-case
  trans_ru: хлеб
 
 -lexeme
@@ -115771,10 +115592,17 @@
 
 -lexeme
  lex: хойно
+ gramm: N
+ stem: хойно.|хойн.
+ paradigm: N-back-lab-case
+ trans_ru: север
+
+-lexeme
+ lex: хойно
  stem: хойно.
  gramm: ADV
  paradigm: unchangeable
- trans_ru: север, на севере, на север
+ trans_ru: на севере, на север
 
 -lexeme
  lex: хойно
@@ -119285,20 +119113,9 @@
 -lexeme
  lex: хубсаһан
  gramm: N
- stem: хубсаһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: хубсаһан
- gramm: N
- stem: хубсаһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: хубсаһан
- gramm: N
  stem: хубсаһан.|хубсаһа.|хубсаһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: одежда
 
 -lexeme
  lex: хубсаһанай
@@ -125580,9 +125397,10 @@
 
 -lexeme
  lex: хүгшөө
- gramm: N
+ gramm: N,anim,hum
  stem: хүгшөө.
  paradigm: N-front-long-case
+ trans_ru: бабушка, матушка
 
 -lexeme
  lex: хүдхэ
@@ -126143,10 +125961,10 @@
 
 -lexeme
  lex: хүйтэн
- stem: хүйтэн.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: гонорея
+ gramm: N
+ stem: хүйтэн.|хүйтэ.|хүйт.
+ paradigm: N-front-unstable_n-case
+ trans_ru: холод, мороз
 
 -lexeme
  lex: хүйтэншэг
@@ -127101,31 +126919,18 @@
 
 -lexeme
  lex: хүн
- gramm: N
+ gramm: N,hum,anim
  stem: хүн.
+ paradigm: N-front-case
  paradigm: N-front-ng-case
- trans_ru: гулкому звуку
+ trans_ru: человек
 
 -lexeme
  lex: хүн
- gramm: N
- stem: хүн.
- paradigm: N-front-velar-cons-case
- trans_ru: гулкому звуку
-
--lexeme
- lex: хүн
- gramm: N
- stem: хүн.|хү.|х.
- paradigm: N-unstable_n-all-case
- trans_ru: гулкому звуку
-
--lexeme
- lex: хүн
- gramm: PRO
- stem: хүн.
- paradigm: unchangeable
- trans_ru: вин, п
+ gramm: N,hum,anim
+ stem: хүн.|хү.|хү.
+ paradigm: N-front-unstable_n-case
+ trans_ru: человек
 
 -lexeme
  lex: хүнгэдхэхэ
@@ -135466,23 +135271,16 @@
 -lexeme
  lex: шулуун
  gramm: N
- stem: шулуун.
- paradigm: N-back-ng-case
- trans_ru: быстрый, проворный
+ stem: шулуун.|шулуу.|шулу.
+ paradigm: N-back-unstable_n-case
+ trans_ru: камень, камни
 
 -lexeme
  lex: шулуун
- gramm: N
+ gramm: A
  stem: шулуун.
- paradigm: N-back-velar-cons-case
- trans_ru: быстрый, проворный
-
--lexeme
- lex: шулуун
- gramm: N
- stem: шулуун.|шулуу.|шулуу.
- paradigm: N-unstable_n-all-case
- trans_ru: быстрый, проворный
+ paradigm: predic_non_verbal
+ trans_ru: быстрый, проворный; прямой
 
 -lexeme
  lex: шулуунай
@@ -136094,21 +135892,10 @@
 
 -lexeme
  lex: шуһан
- gramm: N
- stem: шуһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: шуһан
- gramm: N
- stem: шуһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: шуһан
- gramm: N
+ gramm: N,body
  stem: шуһан.|шуһа.|шуһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: кровь
 
 -lexeme
  lex: шуһанай
@@ -138294,6 +138081,13 @@
  trans_ru: грубо
 
 -lexeme
+ lex: шэхэ
+ gramm: N,body
+ stem: шэхэ.|шэх.
+ paradigm: N-front-case
+ trans_ru: ухо
+
+-lexeme
  lex: шэхэбшэ
  gramm: N
  stem: шэхэбшэ.|шэхэбш.
@@ -138752,10 +138546,10 @@
 
 -lexeme
  lex: шүлэн
+ gramm: N
  stem: шүлэн.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: суп, бульон, мясной отвар
+ paradigm: N-front-velar-cons-case
+ trans_ru: суп, бульон
 
 -lexeme
  lex: шүлэнэй
@@ -145566,11 +145360,18 @@
  paradigm: unchangeable
 
 -lexeme
+ lex: юумэ
+ gramm: N
+ stem: юумэ.|юум.
+ paradigm: N-front-case
+ trans_ru: 
+
+-lexeme
  lex: юумэгүй
  stem: юумэгүй.
  gramm: A
  paradigm: predic_non_verbal
- trans_ru: \атр. не имеющий вещей, без ничего
+ trans_ru: не имеющий вещей, без ничего
 
 -lexeme
  lex: юумэгүйдэхэ
@@ -147750,21 +147551,10 @@
 
 -lexeme
  lex: яһан
- gramm: N
- stem: яһан.
- paradigm: N-back-ng-case
-
--lexeme
- lex: яһан
- gramm: N
- stem: яһан.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: яһан
- gramm: N
+ gramm: N,body
  stem: яһан.|яһа.|яһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: кость
 
 -lexeme
  lex: яһанай
@@ -148008,6 +147798,13 @@
  paradigm: N-back-lab-case
 
 -lexeme
+ lex: ёһо
+ gramm: N
+ stem: ёһо.|ёһ.
+ paradigm: N-back-lab-case
+ trans_ru: закон, правило
+
+-lexeme
  lex: ёһолол
  gramm: N
  stem: ёһолол.
@@ -148016,20 +147813,9 @@
 -lexeme
  lex: ёһон
  gramm: N
- stem: ёһон.
- paradigm: N-back-lab-velar-cons-case
-
--lexeme
- lex: ёһон
- gramm: N
- stem: ёһон.
- paradigm: N-back-ng-case
-
--lexeme
- lex: ёһон
- gramm: N
  stem: ёһон.|ёһо.|ёһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: обычай, традиция
 
 -lexeme
  lex: ёһоор
@@ -148070,24 +147856,10 @@
 
 -lexeme
  lex: үбгэн
- gramm: N
- stem: үбгэн.
- paradigm: N-front-ng-case
- trans_ru: старик
-
--lexeme
- lex: үбгэн
- gramm: N
- stem: үбгэн.
- paradigm: N-front-velar-cons-case
- trans_ru: старик
-
--lexeme
- lex: үбгэн
- gramm: N
+ gramm: N,anim,hum
  stem: үбгэн.|үбгэ.|үбг.
- paradigm: N-unstable_n-all-case
- trans_ru: старик
+ paradigm: N-front-unstable_n-case
+ trans_ru: дед, старик
 
 -lexeme
  lex: үбгэншэг
@@ -148519,19 +148291,15 @@
  lex: үбһэн
  gramm: N
  stem: үбһэн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: үбһэн
- gramm: N
- stem: үбһэн.
  paradigm: N-front-velar-cons-case
+ trans_ru: трава, сено
 
 -lexeme
- lex: үбһэн
+ lex: үбһэ
  gramm: N
- stem: үбһэн.|үбһэ.|үбһ.
- paradigm: N-unstable_n-all-case
+ stem: үбһэ.|үбһ.
+ paradigm: N-front-case
+ trans_ru: трава, сено
 
 -lexeme
  lex: үбһэнэй
@@ -148761,6 +148529,7 @@
  gramm: N
  stem: үгэ.|үг.
  paradigm: N-front-case
+ trans_ru: слово
 
 -lexeme
  lex: үгэгшэ
@@ -151514,27 +151283,16 @@
 -lexeme
  lex: үндэһэн
  gramm: N
- stem: үндэһэн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: үндэһэн
- gramm: N
- stem: үндэһэн.
- paradigm: N-front-velar-cons-case
-
--lexeme
- lex: үндэһэн
- gramm: N
  stem: үндэһэн.|үндэһэ.|үндэһ.
- paradigm: N-unstable_n-all-case
+ paradigm: N-front-unstable_n-case
+ trans_ru: корень
 
 -lexeme
  lex: үндэһэнэй
  stem: үндэһэнэй.
  gramm: A
  paradigm: predic_non_verbal
- trans_ru: атр, корневой
+ trans_ru: корневой
 
 -lexeme
  lex: үндэһэтэй
@@ -153389,21 +153147,10 @@
 
 -lexeme
  lex: үхибүүн
- gramm: N
- stem: үхибүүн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: үхибүүн
- gramm: N
- stem: үхибүүн.
- paradigm: N-front-velar-cons-case
-
--lexeme
- lex: үхибүүн
- gramm: N
- stem: үхибүүн.|үхибүү.|үхибүү.
- paradigm: N-unstable_n-all-case
+ gramm: N,anim,hum
+ stem: үхибүүн.|үхибүү.|үхибү.
+ paradigm: N-front-unstable_n-case
+ trans_ru: ребёнок; мальчик
 
 -lexeme
  lex: үхибүүнэй
@@ -154081,20 +153828,9 @@
 -lexeme
  lex: үһөөн
  gramm: N
- stem: үһөөн.
- paradigm: N-front-ng-case
-
--lexeme
- lex: үһөөн
- gramm: N
- stem: үһөөн.
- paradigm: N-front-velar-cons-case
-
--lexeme
- lex: үһөөн
- gramm: N
- stem: үһөөн.|үһөө.|үһөө.
- paradigm: N-unstable_n-all-case
+ stem: үһөөн.|үһөө.|үһө.
+ paradigm: N-front-unstable_n-case
+ trans_ru: месть, ненависть
 
 -lexeme
  lex: үһөөрхэлдэхэ
@@ -154204,20 +153940,6 @@
  stem: һаалиин.|һаалии.|һаалии.
  paradigm: N-unstable_n-all-case
  trans_ru: молочный
-
--lexeme
- lex: һаалишан
- gramm: N
- stem: һаалишан.
- paradigm: N-back-ng-case
- trans_ru: доярка, дояр
-
--lexeme
- lex: һаалишан
- gramm: N
- stem: һаалишан.
- paradigm: N-back-velar-cons-case
- trans_ru: доярка, дояр
 
 -lexeme
  lex: һаалишан
@@ -155250,20 +154972,9 @@
 -lexeme
  lex: һамган
  gramm: N
- stem: һамган.
- paradigm: N-back-ng-case
-
--lexeme
- lex: һамган
- gramm: N
- stem: һамган.
- paradigm: N-back-velar-cons-case
-
--lexeme
- lex: һамган
- gramm: N
  stem: һамган.|һамга.|һамг.
- paradigm: N-unstable_n-all-case
+ paradigm: N-back-unstable_n-case
+ trans_ru: женщина, жена
 
 -lexeme
  lex: һамгатай
@@ -157130,9 +156841,10 @@
 
 -lexeme
  lex: һурагша
- gramm: N
+ gramm: N,anim,hum
  stem: һурагша.|һурагш.
  paradigm: N-back-case
+ trans_ru: ученик
 
 -lexeme
  lex: һурагшалуулха
@@ -157390,6 +157102,13 @@
  stem: һуурижа.|һууриж.
  paradigm: short-back
  trans_ru: располагаться на жительство, переходить к оседлому образу жизни; обосновываться
+
+-lexeme
+ lex: һуурин
+ gramm: N
+ stem: һуурин.|һуури.|һуур.
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: населённый пункт, поселение
 
 -lexeme
  lex: һууриншаха
@@ -158328,6 +158047,13 @@
  trans_ru: тусклый, мутный (напр., о стекле)
 
 -lexeme
+ lex: һүн
+ gramm: N
+ stem: һүн.|һү.|һ.
+ paradigm: N-front-unstable_n-case
+ trans_ru: молоко
+
+-lexeme
  lex: һүндэлдэхэ
  gramm: V
  stem: һүндэлдэ.|һүндэлд.
@@ -158521,6 +158247,13 @@
  stem: һүүзы.
  paradigm: long-back
  trans_ru: быть долговязым и тощим, с длинной шеей
+
+-lexeme
+ lex: һүүл
+ gramm: N
+ stem: һүүл.
+ paradigm: N-front-y-case
+ trans_ru: хвост, конец
 
 -lexeme
  lex: һүүлдэ
@@ -159035,3 +158768,135 @@
  paradigm: predic_non_verbal
  trans_ru:
 
+-lexeme
+ lex: Атай-Улаан
+ gramm: N,supernat
+ stem: атай-улаан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Атай-Улаан
+
+-lexeme
+ lex: Раднын
+ gramm: N,PN,famn
+ stem: раднын.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Раднын
+
+-lexeme
+ lex: түсэбөө
+ gramm: N
+ stem: түсэбөө.
+ paradigm: N-front-long-case
+ trans_ru: 
+
+-lexeme
+ lex: библиотекарь
+ gramm: N,hum,anim,rus
+ stem: библиотекар.
+ paradigm: N-back-palat-cons-case
+ trans_ru: библиотекарь
+
+-lexeme
+ lex: һүни
+ gramm: N
+ stem: һүни.
+ paradigm: N-front-i-short-case
+ trans_ru: ночь
+
+-lexeme
+ lex: саһан
+ gramm: N
+ stem: саһан.|саһа.|саһ.
+ paradigm: N-back-unstable_n-case
+ trans_ru: снег
+
+-lexeme
+ lex: саарһан
+ gramm: N
+ stem: саарһан.|саарһа.|саарһ.
+ paradigm: N-back-unstable_n-case
+ trans_ru: бумага
+
+-lexeme
+ lex: саарма
+ gramm: N
+ stem: саарма.|саарм.
+ paradigm: N-back-case
+ trans_ru: название ветра на Байкале
+
+-lexeme
+ lex: Татьяна
+ gramm: N,PN,persn
+ stem: татьяна.|татьян.
+ paradigm: N-back-case
+ trans_ru: Татьяна
+
+-lexeme
+ lex: лейтенант
+ gramm: N,hum,anim,rus
+ stem: лейтенант.
+ paradigm: N-back-CC-case
+ trans_ru: лейтенант
+
+-lexeme
+ lex: хүгшөөдэй
+ gramm: N,anim,hum
+ stem: хүгшөөдэй.
+ paradigm: N-front-y-case
+ trans_ru: бабушка, матушка
+
+-lexeme
+ lex: басагамни
+ gramm: N
+ stem: басагамни.
+ paradigm: N-back-i-short-case
+ trans_ru: басагамни
+
+-lexeme
+ lex: битнай
+ gramm: N
+ stem: битнай.
+ paradigm: N-back-y-case
+ trans_ru: битнай
+
+-lexeme
+ lex: -хи
+ gramm: N,missp
+ stem: хи.
+ paradigm: N-back-i-short-case
+ trans_ru: -хи
+
+-lexeme
+ lex: парторг
+ gramm: N,rus,anim,hum
+ stem: парторг.
+ paradigm: N-back-lab-CC-case
+ trans_ru: парторг
+
+-lexeme
+ lex: жолоошон
+ gramm: N,anim,hum
+ stem: жолоошон.|жолоошо.|жолоош.
+ paradigm: N-back-lab-unstable_n-case
+ trans_ru: водитель, шофер
+
+-lexeme
+ lex: эмшэн
+ gramm: N,anim,hum
+ stem: эмшэн.|эмшэ.|эмш.
+ paradigm: N-front-unstable_n-case
+ trans_ru: врач, лекарь
+
+-lexeme
+ lex: плати
+ gramm: N,rus
+ stem: плати.
+ paradigm: N-back-i-short-case
+ trans_ru: платье
+
+-lexeme
+ lex: фашист
+ gramm: N,rus,anim,hum
+ stem: фашист.
+ paradigm: N-back-CC-case
+ trans_ru: фашист
