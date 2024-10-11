@@ -136,6 +136,10 @@ def parse_wordlists():
                                format='xml')
     for ana in analyses:
         print(ana)
+    words = ['абяанай', 'айлшадаа', 'бодолнуудта', 'бооридо', 'малшадай', 'нюдыень', 'зомди']
+    analyses = a.analyze_words(words)
+    for ana in analyses:
+        print(ana)
     a.analyze_wordlist(freqListFile='wordlists/wordlist.csv',
                        parsedFile='wordlists/wordlist_analyzed.txt',
                        unparsedFile='wordlists/wordlist_unanalyzed.txt',

@@ -10,8 +10,22 @@
  -flex: .б
   gramm: LEX:бэ:PART;trans_ru=вопросительная частица
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
- -flex: .шье
+ -flex: .шье<.>
   gramm: LEX:шье:PART;trans_ru=хотя; и... и
+  paradigm: unchangeable-final
+
+-paradigm: unchangeable-final
+ -flex: .
+  gramm: 
+ -flex: .л
+  gramm: LEX:лэ:PART;trans_ru=же; уж; -ка
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .г
+  gramm: LEX:гү:PART;trans_ru=ли
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
+ -flex: .б
+  gramm: LEX:бэ:PART;trans_ru=вопросительная частица
+  regex-prev: .*[аеёийоөуүэюя][.<>]*$
 
 -paradigm: V-pers
  -flex: .<.>
@@ -3044,7 +3058,7 @@
  -flex: <1>.ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: <1>.э
+ -flex: <1>.ээ//<0>.еэ
   gramm: acc,poss
  -flex: <1>.ээр<.>
   gramm: ins
@@ -3074,6 +3088,64 @@
   gramm: comit,dat
   paradigm: poss-m(ni)-n
  -flex: <0>.дэһээ<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: num-nyuud
+
+
+-paradigm: N-front-lab-case
+ -flex: <0>.<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n
+ -flex: <1>.ын<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <1>.ымни//<1>.ым
+  gramm: gen,poss_1sg
+ -flex: <1>.ынгээ
+  gramm: gen,poss
+ -flex: <0>.иинь
+  gramm: gen,poss_3
+ -flex: <0>.дэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дөө//<0>.төө
+  gramm: dat,poss
+ -flex: <1>.ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0,1>.өө
+  gramm: acc,poss
+ -flex: <1>.өөр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <1>.өөрөө
+  gramm: ins,poss
+ -flex: <0>.тэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тэйгээ//<0>.тэеэ
+  gramm: comit,poss
+ -flex: <0>.һөө<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һөөн
+  gramm: abl,poss
+ -flex: <1>.ындэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тэйгөөр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дэһөө<.>
   gramm: dat,abl
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
@@ -3184,6 +3256,60 @@
   gramm: comit,dat
   paradigm: poss-m(ni)-n
  -flex: <0>.даһаа<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: num-nuud
+
+
+-paradigm: N-back-lab-i-short-case
+ -flex: <0>.<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ин<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ингоо
+  gramm: gen,poss
+ -flex: <0>.до<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.доо
+  gramm: dat,poss
+ -flex: <0>.ие<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0,1>.ёо
+  gramm: acc,poss
+ -flex: <1>.ёор<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <1>.ёороо
+  gramm: ins,poss
+ -flex: <0>.той<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тойгоо//<0>.тоёо
+  gramm: comit,poss
+ -flex: <0>.һоо<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һоон
+  gramm: abl,poss
+ -flex: <1>.индо<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тойгоор<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тойень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тойдо<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.доһоо<.>
   gramm: dat,abl
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
@@ -3534,7 +3660,7 @@
  -flex: .гэй<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: .нгөө//.нгээ
+ -flex: .гэйнгөө//.гэйнгээ
   gramm: gen,poss
  -flex: .дэ<.>
   gramm: dat
@@ -3589,7 +3715,7 @@
  -flex: .гай<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: .нгаа
+ -flex: .гайнгаа
   gramm: gen,poss
  -flex: .да<.>
   gramm: dat
@@ -3640,248 +3766,25 @@
  -flex: .<.>
   gramm: nom
   paradigm: poss-m(ni)-n
- -flex: .гай<.>
+ -flex: .гой<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: .нгаа
+ -flex: .гойнгоо
   gramm: gen,poss
- -flex: .да<.>
+ -flex: .до<.>
   gramm: dat
   paradigm: poss-m(ni)-n
- -flex: .даа
+ -flex: .доо
   gramm: dat,poss
  -flex: .е<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: .гаа
+ -flex: .гоо
   gramm: acc,poss
- -flex: .гаар<.>
+ -flex: .гоор<.>
   gramm: ins
   paradigm: poss-ni-n
- -flex: .гаараа
-  gramm: ins,poss
- -flex: .тай<.>
-  gramm: comit
-  paradigm: poss-m(ni)-n
- -flex: .тайгаа//.таяа
-  gramm: comit,poss
- -flex: .һаа<.>
-  gramm: abl
-  paradigm: poss-m(ni)-n
- -flex: .һаан
-  gramm: abl,poss
- -flex: .гайда<.>
-  gramm: gen,dat
-  paradigm: poss-m(ni)-n
- -flex: .тайгаар<.>
-  gramm: comit,ins
-  paradigm: poss-ni-n
- -flex: .тайень<.>
-  gramm: comit,acc
-  paradigm: poss-m(ni)-n
- -flex: .тайда<.>
-  gramm: comit,dat
-  paradigm: poss-m(ni)-n
- -flex: .даһаа<.>
-  gramm: dat,abl
-  paradigm: poss-m(ni)-n
- -flex: .<.>
-  gramm: 
-  paradigm: num-nuud
-
-
--paradigm: N-back-velar-cons-case
- -flex: .<.>
-  gramm: nom
-  paradigm: poss-m(ni)-n
- -flex: .ай<.>
-  gramm: gen
-  paradigm: poss-m(ni)-n
- -flex: .ынь
-  gramm: nom,poss_3
- -flex: .айнгаа
-  gramm: gen,poss
- -flex: .да<.>//.та<.>
-  gramm: dat
-  paradigm: poss-m(ni)-n
- -flex: .даа//.таа
-  gramm: dat,poss
- -flex: .ые<.>
-  gramm: acc
-  paradigm: poss-m(ni)-n
- -flex: .аа
-  gramm: acc,poss
- -flex: .аар<.>
-  gramm: ins
-  paradigm: poss-ni-n
- -flex: .аараа
-  gramm: ins,poss
- -flex: .тай<.>
-  gramm: comit
-  paradigm: poss-m(ni)-n
- -flex: .тайгаа//.таяа
-  gramm: comit,poss
- -flex: .һаа<.>
-  gramm: abl
-  paradigm: poss-m(ni)-n
- -flex: .һаан
-  gramm: abl,poss
- -flex: .айда<.>
-  gramm: gen,dat
-  paradigm: poss-m(ni)-n
- -flex: .тайгаар<.>
-  gramm: comit,ins
-  paradigm: poss-ni-n
- -flex: .тайень<.>
-  gramm: comit,acc
-  paradigm: poss-m(ni)-n
- -flex: .тайда<.>
-  gramm: comit,dat
-  paradigm: poss-m(ni)-n
- -flex: .даһаа<.>//.таһаа<.>
-  gramm: dat,abl
-  paradigm: poss-m(ni)-n
- -flex: .<.>
-  gramm: 
-  paradigm: num-uud
-
--paradigm: N-back-velar-cons-case-nuud
- -flex: .<.>
-  gramm: nom
-  paradigm: poss-m(ni)-n
- -flex: .ай<.>
-  gramm: gen
-  paradigm: poss-m(ni)-n
- -flex: .ынь
-  gramm: nom,poss_3
- -flex: .айнгаа
-  gramm: gen,poss
- -flex: .да<.>//.та<.>
-  gramm: dat
-  paradigm: poss-m(ni)-n
- -flex: .даа//.таа
-  gramm: dat,poss
- -flex: .ые<.>
-  gramm: acc
-  paradigm: poss-m(ni)-n
- -flex: .аа
-  gramm: acc,poss
- -flex: .аар<.>
-  gramm: ins
-  paradigm: poss-ni-n
- -flex: .аараа
-  gramm: ins,poss
- -flex: .тай<.>
-  gramm: comit
-  paradigm: poss-m(ni)-n
- -flex: .тайгаа//.таяа
-  gramm: comit,poss
- -flex: .һаа<.>
-  gramm: abl
-  paradigm: poss-m(ni)-n
- -flex: .һаан
-  gramm: abl,poss
- -flex: .айда<.>
-  gramm: gen,dat
-  paradigm: poss-m(ni)-n
- -flex: .тайгаар<.>
-  gramm: comit,ins
-  paradigm: poss-ni-n
- -flex: .тайень<.>
-  gramm: comit,acc
-  paradigm: poss-m(ni)-n
- -flex: .тайда<.>
-  gramm: comit,dat
-  paradigm: poss-m(ni)-n
- -flex: .даһаа<.>//.таһаа<.>
-  gramm: dat,abl
-  paradigm: poss-m(ni)-n
- -flex: .<.>
-  gramm: 
-  paradigm: num-nuud
-
--paradigm: N-front-velar-cons-case
- -flex: .<.>
-  gramm: nom
-  paradigm: poss-m(ni)-n
- -flex: .эй<.>
-  gramm: gen
-  paradigm: poss-m(ni)-n
- -flex: .ынь
-  gramm: nom,poss_3
- -flex: .эйнгээ
-  gramm: gen,poss
- -flex: .дэ<.>//.тэ<.>
-  gramm: dat
-  paradigm: poss-m(ni)-n
- -flex: .дээ//.тээ
-  gramm: dat,poss
- -flex: .ые<.>
-  gramm: acc
-  paradigm: poss-m(ni)-n
- -flex: .ээ
-  gramm: acc,poss
- -flex: .ээр<.>
-  gramm: ins
-  paradigm: poss-ni-n
- -flex: .ээрээ
-  gramm: ins,poss
- -flex: .тэй<.>
-  gramm: comit
-  paradigm: poss-m(ni)-n
- -flex: .тэйгээ//.тэеэ
-  gramm: comit,poss
- -flex: .һээ<.>
-  gramm: abl
-  paradigm: poss-m(ni)-n
- -flex: .һээн
-  gramm: abl,poss
- -flex: .эйдэ<.>
-  gramm: gen,dat
-  paradigm: poss-m(ni)-n
- -flex: .тэйгээр<.>
-  gramm: comit,ins
-  paradigm: poss-ni-n
- -flex: .тэйень<.>
-  gramm: comit,acc
-  paradigm: poss-m(ni)-n
- -flex: .тэйдэ<.>
-  gramm: comit,dat
-  paradigm: poss-m(ni)-n
- -flex: .дэһээ<.>//.тэһээ<.>
-  gramm: dat,abl
-  paradigm: poss-m(ni)-n
- -flex: .<.>
-  gramm: 
-  paradigm: num-yuud
-
-
--paradigm: N-back-lab-velar-cons-case
- -flex: .<.>
-  gramm: nom
-  paradigm: poss-m(ni)-n
-  paradigm: poss-ni-n
- -flex: .ой<.>
-  gramm: gen
-  paradigm: poss-m(ni)-n
- -flex: .ынь
-  gramm: nom,poss_3
- -flex: .ойнгоо
-  gramm: gen,poss
- -flex: .до<.>//.то<.>
-  gramm: dat
-  paradigm: poss-m(ni)-n
- -flex: .доо//.тоо
-  gramm: dat,poss
- -flex: .ые<.>
-  gramm: acc
-  paradigm: poss-m(ni)-n
- -flex: .оо
-  gramm: acc,poss
- -flex: .оор<.>
-  gramm: ins
-  paradigm: poss-ni-n
- -flex: .оороо
+ -flex: .гоороо
   gramm: ins,poss
  -flex: .той<.>
   gramm: comit
@@ -3893,7 +3796,7 @@
   paradigm: poss-m(ni)-n
  -flex: .һоон
   gramm: abl,poss
- -flex: .ойдо<.>
+ -flex: .гойдо<.>
   gramm: gen,dat
   paradigm: poss-m(ni)-n
  -flex: .тойгоор<.>
@@ -3905,12 +3808,265 @@
  -flex: .тойдо<.>
   gramm: comit,dat
   paradigm: poss-m(ni)-n
- -flex: .доһоо<.>//.тоһоо<.>
+ -flex: .доһоо<.>
   gramm: dat,abl
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nuud
+
+
+-paradigm: N-back-velar-cons-case
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n-replace_n
+  paradigm: poss-ni-n
+ -flex: <0>.ай<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ынь
+  gramm: nom,poss_3
+ -flex: <0>.айнгаа
+  gramm: gen,poss
+ -flex: <0>.да<.>//<0>.та<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.даа//<0>.таа
+  gramm: dat,poss
+ -flex: <0>.ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.аа
+  gramm: acc,poss
+ -flex: <0>.аар<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.аараа
+  gramm: ins,poss
+ -flex: <0>.тай<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тайгаа//<0>.таяа
+  gramm: comit,poss
+ -flex: <0>.һаа<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һаан
+  gramm: abl,poss
+ -flex: <0>.айда<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тайгаар<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тайень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: <0>.тайда<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.даһаа<.>//<0>.таһаа<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  regex-prev: .*[^лр<>.][<>.]*$
+  gramm: 
   paradigm: num-uud
+ -flex: <0>.<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nuud
+
+
+-paradigm: N-front-velar-cons-case
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n-replace_n
+  paradigm: poss-ni-n
+ -flex: <0>.эй<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ынь
+  gramm: nom,poss_3
+ -flex: <0>.эйнгээ
+  gramm: gen,poss
+ -flex: <0>.дэ<.>//<0>.тэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дээ//<0>.тээ
+  gramm: dat,poss
+ -flex: <0>.ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ээ
+  gramm: acc,poss
+ -flex: <0>.ээр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.ээрээ
+  gramm: ins,poss
+ -flex: <0>.тэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тэйгээ//<0>.тэеэ
+  gramm: comit,poss
+ -flex: <0>.һээ<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һээн
+  gramm: abl,poss
+ -flex: <0>.эйдэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.эйдээ
+  gramm: gen,dat,poss
+ -flex: <0>.тэйгээр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: <0>.тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дэһээ<.>//<0>.тэһээ<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: num-yuud
+ -flex: <0>.<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nyuud
+
+
+-paradigm: N-front-lab-velar-cons-case
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n-replace_n
+  paradigm: poss-ni-n
+ -flex: <0>.эй<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ынь
+  gramm: nom,poss_3
+ -flex: <0>.эйнгөө//<0>.эйгөө
+  gramm: gen,poss
+ -flex: <0>.дэ<.>//<0>.тэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дөө//<0>.төө
+  gramm: dat,poss
+ -flex: <0>.ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.өө
+  gramm: acc,poss
+ -flex: <0>.өөр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.өөрөө
+  gramm: ins,poss
+ -flex: <0>.төй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тэйгөө//<0>.төеө
+  gramm: comit,poss
+ -flex: <0>.һөө<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һөөн
+  gramm: abl,poss
+ -flex: <0>.эйдэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.эйдөө
+  gramm: gen,dat,poss
+ -flex: <0>.тэйгөөр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: <0>.тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.дэһөө<.>//<0>.тэһөө<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: num-yuud
+ -flex: <0>.<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nyuud
+
+
+-paradigm: N-back-lab-velar-cons-case
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n-replace_n
+  paradigm: poss-ni-n
+ -flex: <0>.ой<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: <0>.ынь
+  gramm: nom,poss_3
+ -flex: <0>.ойнгоо
+  gramm: gen,poss
+ -flex: <0>.до<.>//<0>.то<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.доо//<0>.тоо
+  gramm: dat,poss
+ -flex: <0>.ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: <0>.оо
+  gramm: acc,poss
+ -flex: <0>.оор<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.оороо
+  gramm: ins,poss
+ -flex: <0>.той<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тойгоо//<0>.тоёо
+  gramm: comit,poss
+ -flex: <0>.һоо<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.һоон
+  gramm: abl,poss
+ -flex: <0>.ойдо<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.тойгоор<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: <0>.тойень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: <0>.тойдо<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: <0>.доһоо<.>//<0>.тоһоо<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: num-uud
+ -flex: <0>.<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nuud
 
 
 -paradigm: N-back-palat-cons-case
@@ -3959,16 +4115,81 @@
  -flex: .ьтайень<.>
   gramm: comit,acc
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .ьтайда<.>
   gramm: comit,dat
   paradigm: poss-m(ni)-n
  -flex: .ьдаһаа<.>//.ьтаһаа<.>
   gramm: dat,abl
   paradigm: poss-m(ni)-n
- -flex: .<.>
+ -flex: .ь<.>
+  gramm: 
+  paradigm: num-uud
+ -flex: .ь<.>
+  regex-prev: .*[лр][<>.]*$
   gramm: 
   paradigm: num-nuud
 
+-paradigm: N-front-palat-cons-case
+ -flex: .ь<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: .ей<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .иинь
+  gramm: nom,poss_3
+ -flex: .айнгаа//.иингаа
+  gramm: gen,poss
+ -flex: .ьдэ<.>//.ьтэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .ьдээ//.ьтээ
+  gramm: dat,poss
+ -flex: .иие<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .еэ
+  gramm: acc,poss
+ -flex: .еэр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .еэрээ
+  gramm: ins,poss
+ -flex: .ьтэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .ьтэйгээ//.ьтэеэ
+  gramm: comit,poss
+ -flex: .ьһээ<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .ьһээн
+  gramm: abl,poss
+ -flex: .ейдэ<.>//.ииндэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: .ьтэйгээр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .ьтэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
+ -flex: .ьтэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .ьдэһээ<.>//.ьтэһээ<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: .ь<.>
+  gramm: 
+  paradigm: num-yuud
+ -flex: .ь<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nyuud
 
 -paradigm: N-back-lab-palat-cons-case
  -flex: .ь<.>
@@ -3978,6 +4199,7 @@
  -flex: .иин<.>
   gramm: gen
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .иинь
   gramm: nom,poss_3
  -flex: .иингоо
@@ -4016,6 +4238,7 @@
  -flex: .ьтойень<.>
   gramm: comit,acc
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .ьтойдо<.>
   gramm: comit,dat
   paradigm: poss-m(ni)-n
@@ -4032,6 +4255,7 @@
  -flex: .<.>
   gramm: nom
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .гынь
   gramm: nom,poss_3
  -flex: .гэй<.>
@@ -4073,6 +4297,7 @@
  -flex: .тэйень<.>
   gramm: comit,acc
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .тэйдэ<.>
   gramm: comit,dat
   paradigm: poss-m(ni)-n
@@ -4088,6 +4313,7 @@
  -flex: .<.>
   gramm: nom
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .гынь
   gramm: nom,poss_3
  -flex: .гай<.>
@@ -4129,6 +4355,7 @@
  -flex: .тайень<.>
   gramm: comit,acc
   paradigm: poss-m(ni)-n
+  paradigm: poss-ni-n
  -flex: .тайда<.>
   gramm: comit,dat
   paradigm: poss-m(ni)-n
@@ -4273,10 +4500,10 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.даа//<0>.доо//<0>.дээ
   gramm: dat,poss
- -flex: <1>.ые<.>//<1>.ие<.>//<1>.е<.>
+ -flex: <1,2>.ые<.>//<1,2>.ие<.>//<1,2>.е<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: <1>.аа//<1>.ёо//<2>.ёо//<1>.гээ
+ -flex: <2>.аа//<2>.ёо//<1,2>.гээ
   gramm: acc,poss
  -flex: <2>.аар<.>//<2>.яар<.>//<2>.ёор<.>//<2>.гээр<.>
   gramm: ins
@@ -4334,12 +4561,17 @@
  -flex: <1>.ые<.>//<1>.ие<.>//<1>.е<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: <1>.гээ
+ -flex: <1,2>.гээ
   gramm: acc,poss
- -flex: <2>.гээр<.>
+ -flex: <2>.гээр<.>//<2>.еэр<.>
   gramm: ins
   paradigm: poss-ni-n
- -flex: <2>.гээрээ
+ -flex: <2>.гээрээ//<2>.еэрээ
+  gramm: ins,poss
+ -flex: <0>.ээр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.ээрээ
   gramm: ins,poss
  -flex: <0,1>.тэй<.>
   gramm: comit
@@ -4389,15 +4621,20 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.даа
   gramm: dat,poss
- -flex: <1>.ые<.>
+ -flex: <1,2>.ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: <1>.аа
+ -flex: <2>.аа
   gramm: acc,poss
  -flex: <2>.аар<.>//<2>.яар<.>
   gramm: ins
   paradigm: poss-ni-n
  -flex: <2>.аараа//<2>.яараа
+  gramm: ins,poss
+ -flex: <0>.аар<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.аараа
   gramm: ins,poss
  -flex: <0,1>.тай<.>
   gramm: comit
@@ -4447,15 +4684,20 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.доо
   gramm: dat,poss
- -flex: <1>.ые<.>//<1>.ие<.>//<1>.е<.>
+ -flex: <1,2>.ые<.>//<1,2>.ие<.>//<1,2>.е<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: <1>.ёо//<2>.ёо
+ -flex: <1,2>.ёо
   gramm: acc,poss
  -flex: <2>.ёор<.>
   gramm: ins
   paradigm: poss-ni-n
  -flex: <2>.ёороо
+  gramm: ins,poss
+ -flex: <0>.оор<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: <0>.оороо
   gramm: ins,poss
  -flex: <0,1>.той<.>
   gramm: comit
@@ -4501,10 +4743,10 @@
   gramm: gen,poss_3
  -flex: .айнгаа
   gramm: gen,poss
- -flex: .да<.>
+ -flex: .да<.>//.та<.>
   gramm: dat
   paradigm: poss-m(ni)-n
- -flex: .даа
+ -flex: .даа//.таа
   gramm: dat,poss
  -flex: .ые<.>
   gramm: acc
@@ -4554,10 +4796,10 @@
   gramm: gen,poss_3
  -flex: .ойнгоо
   gramm: gen,poss
- -flex: .до<.>
+ -flex: .до<.>//.то<.>
   gramm: dat
   paradigm: poss-m(ni)-n
- -flex: .доо<.>
+ -flex: .доо//.тоо
   gramm: dat,poss
  -flex: .ые<.>
   gramm: acc
@@ -4608,30 +4850,30 @@
   gramm: gen,poss_3
  -flex: .эйнгээ
   gramm: gen,poss
- -flex: .дэ<.>
+ -flex: .дэ<.>//.тэ<.>
   gramm: dat
   paradigm: poss-m(ni)-n
- -flex: .дээ
+ -flex: .дээ//.тээ
   gramm: dat,poss
  -flex: .ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
- -flex: .ээ//.өө
+ -flex: .ээ
   gramm: acc,poss
- -flex: .ээр<.>//.өөр<.>
+ -flex: .ээр<.>
   gramm: ins
   paradigm: poss-ni-n
- -flex: .ээрээ//.өөрөө
+ -flex: .ээрээ
   gramm: ins,poss
  -flex: .тэй<.>
   gramm: comit
   paradigm: poss-m(ni)-n
  -flex: .тэйгээ//.тэеэ
   gramm: comit,poss
- -flex: .һээ<.>//.һөө<.>
+ -flex: .һээ<.>
   gramm: abl
   paradigm: poss-m(ni)-n
- -flex: .һээн//.һөөн
+ -flex: .һээн
   gramm: abl,poss
  -flex: .эйдэ<.>
   gramm: gen,dat
@@ -4649,6 +4891,58 @@
   gramm: dat,abl
   paradigm: poss-m(ni)-n
 
+
+-paradigm: N-front-lab-case-after_num
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-ni-n
+ -flex: .эй<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .ынь
+  gramm: gen,poss_3
+ -flex: .эйнгөө
+  gramm: gen,poss
+ -flex: .дэ<.>//.тэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .дөө//.төө
+  gramm: dat,poss
+ -flex: .ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .ээ//.өө
+  gramm: acc,poss
+ -flex: .ээр<.>//.өөр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .ээрээ//.өөрөө
+  gramm: ins,poss
+ -flex: .тэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .тэйгээ//.тэеэ//.тэйгөө
+  gramm: comit,poss
+ -flex: .һөө<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .һөөн
+  gramm: abl,poss
+ -flex: .эйдэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: .тэйгөөр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: .тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .дэһээ<.>//.дэһөө<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
 
 -paradigm: num-nar
  -flex: .нар<.>
@@ -4685,8 +4979,10 @@
 -paradigm: num-d
  -flex: .д<.>
   gramm: pl
+  paradigm: N-back-case-after_num
   paradigm: N-back-lab-case-after_num
   paradigm: N-front-case-after_num
+  paradigm: N-front-lab-case-after_num
 
 
 
@@ -4704,6 +5000,27 @@
  -flex: .нь<.>
   gramm: poss_3
  paradigm: predic_non_verbal
+
+-paradigm: poss-m(ni)-n-replace_n
+ -flex: .<.>
+  gramm: 
+  paradigm: predic_non_verbal-replace_n
+ -flex: <1>.м<.>//<1>.мни<.>
+  gramm: poss_1sg
+  paradigm: predic_non_verbal
+ -flex: <0>.шни<.>
+  gramm: poss_2sg
+  paradigm: predic_non_verbal
+ -flex: <1>.мнай<.>
+  gramm: poss_1pl
+  paradigm: predic_non_verbal
+ -flex: <0>.тнай<.>
+  gramm: poss_2pl
+  paradigm: predic_non_verbal
+ -flex: <0>.нь<.>
+  gramm: poss_3
+  paradigm: predic_non_verbal
+
 
 -paradigm: poss-ni-n
  -flex: .<.>
@@ -4731,18 +5048,36 @@
  -flex: .б
   gramm: pred,1,sg
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
- -flex: .бди
+ -flex: .бди<.>
   gramm: pred,1,pl
   paradigm: unchangeable
- -flex: .ши
+ -flex: .ши<.>
   gramm: pred,2,sg
   paradigm: unchangeable
  -flex: .ш
   gramm: pred,2,sg
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
- -flex: .та
+ -flex: .та<.>
   gramm: pred,2,pl
   paradigm: unchangeable
  -flex: .т
   gramm: pred,2,pl
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
+
+-paradigm: predic_non_verbal-replace_n
+ -flex: <0>.<.>
+  gramm: 
+  paradigm: unchangeable
+ -flex: <0>.би<.>
+  gramm: pred,1,sg
+  paradigm: unchangeable
+ -flex: <1>.мди//<0>.бди
+  gramm: pred,1,pl
+  paradigm: unchangeable
+ -flex: <0>.ши
+  gramm: pred,2,sg
+  paradigm: unchangeable
+ -flex: <0>.та
+  gramm: pred,2,pl
+  paradigm: unchangeable
+
