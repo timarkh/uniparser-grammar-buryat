@@ -49,6 +49,21 @@
   gramm: neg
  paradigm: V-pers
 
+-paradigm: pers-ptcp
+ -flex: .<.>
+  gramm: 3,sg
+ -flex: .нь<.>
+  gramm: 3,pl
+ -flex: .б<.>//.м<.>
+  gramm: 1,sg
+ -flex: .бди<.>//.мди<.>
+  gramm: 1,pl
+ -flex: .ш<.>//.шни<.>
+  gramm: 2,sg
+ -flex: .т<.>//.тнай<.>
+  gramm: 2,pl
+ paradigm: unchangeable
+
 -paradigm: short-back
  -flex: <0>.я//<0>.ябди
   gramm: juss,1,pl
@@ -127,18 +142,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхайт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.ха
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хань
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хаб//<0>.хам
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хабди//<0>.хамди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хаш//<0>.хашни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хат//<0>.хатнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.ха<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-cons
  -flex: <1>.ааша
   gramm: ptcp,const,3,sg
  -flex: <1>.аашань
@@ -308,18 +317,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхойт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хо
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хонь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хоб//<0>.хом
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хобди//<0>.хомди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хош//<0>.хошни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хот//<0>.хотнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хо<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-cons
  -flex: <1>.оошо
   gramm: ptcp,const,3,sg
  -flex: <1>.оошонь
@@ -489,18 +492,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хэнь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хэб//<0>.хэм
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хэбди//<0>.хэмди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хэш//<0>.хэшни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хэт//<0>.хэтнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <1>.ээшэ
   gramm: ptcp,const,3,sg
  -flex: <1>.ээшэнь
@@ -670,18 +667,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хэнь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хэб//<0>.хэм
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хэбди//<0>.хэмди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хэш//<0>.хэшни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хэт//<0>.хэтнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <1>.өөшэ
   gramm: ptcp,const,3,sg
  -flex: <1>.өөшэнь
@@ -856,18 +847,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхайт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.ха
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хань
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хаб//<0>.хам
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хабди//<0>.хамди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хаш//<0>.хашни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хат//<0>.хатнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.ха<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-cons
  -flex: <1>.яаша
   gramm: ptcp,const,3,sg
  -flex: <1>.яашань
@@ -1037,18 +1022,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхойт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хо
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хонь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хоб//<0>.хом
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хобди//<0>.хомди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хош//<0>.хошни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хот//<0>.хотнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хо<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-cons
  -flex: <1>.оошо
   gramm: ptcp,const,3,sg
  -flex: <1>.оошонь
@@ -1218,18 +1197,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хэнь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хэб//<0>.хэм
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хэбди//<0>.хэмди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хэш//<0>.хэшни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хэт//<0>.хэтнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <0>.еэшэ
   gramm: ptcp,const,3,sg
  -flex: <0>.еэшэнь
@@ -1399,18 +1372,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
- -flex: <0>.хэнь
-  gramm: ptcp,fut,3,pl
- -flex: <0>.хэб//<0>.хэм
-  gramm: ptcp,fut,1,sg
- -flex: <0>.хэбди//<0>.хэмди
-  gramm: ptcp,fut,1,pl
- -flex: <0>.хэш//<0>.хэшни
-  gramm: ptcp,fut,2,sg
- -flex: <0>.хэт//<0>.хэтнай
-  gramm: ptcp,fut,2,pl
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <1>.ёөшэ
   gramm: ptcp,const,3,sg
  -flex: <1>.ёөшэнь
@@ -1589,8 +1556,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхайт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.ха
-  gramm: ptcp,fut,3,sg
+ -flex: <0>.ха<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-cons
  -flex: <0>.хань
   gramm: ptcp,fut,3,pl
  -flex: <0>.хаб//<0>.хам
@@ -1770,8 +1741,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхойт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хо
-  gramm: ptcp,fut,3,sg
+ -flex: <0>.хо<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-cons
  -flex: <0>.хонь
   gramm: ptcp,fut,3,pl
  -flex: <0>.хоб//<0>.хом
@@ -1951,8 +1926,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <0>.хэнь
   gramm: ptcp,fut,3,pl
  -flex: <0>.хэб//<0>.хэм
@@ -2132,8 +2111,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: <0>.нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: <0>.хэ
-  gramm: ptcp,fut,3,sg
+ -flex: <0>.хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: <0>.х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: <0>.хэнь
   gramm: ptcp,fut,3,pl
  -flex: <0>.хэб//<0>.хэм
@@ -2318,8 +2301,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: .нхайт
   gramm: ptcp,pst3,2,pl
- -flex: .ха
-  gramm: ptcp,fut,3,sg
+ -flex: .ха<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-vowel
+ -flex: .х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-case-ptcp-cons
  -flex: .хань
   gramm: ptcp,fut,3,pl
  -flex: .хаб//.хам
@@ -2499,8 +2486,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: .нхойт
   gramm: ptcp,pst3,2,pl
- -flex: .хо
-  gramm: ptcp,fut,3,sg
+ -flex: .хо<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-vowel
+ -flex: .х<.>
+  gramm: ptcp,fut
+  paradigm: N-back-lab-case-ptcp-cons
  -flex: .хонь
   gramm: ptcp,fut,3,pl
  -flex: .хоб//.хом
@@ -2680,8 +2671,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: .нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: .хэ
-  gramm: ptcp,fut,3,sg
+ -flex: .хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: .х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: .хэнь
   gramm: ptcp,fut,3,pl
  -flex: .хэб//.хэм
@@ -2861,8 +2856,12 @@
   gramm: ptcp,pst3,2,sg
  -flex: .нхэйт
   gramm: ptcp,pst3,2,pl
- -flex: .хэ
-  gramm: ptcp,fut,3,sg
+ -flex: .хэ<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-vowel
+ -flex: .х<.>
+  gramm: ptcp,fut
+  paradigm: N-front-case-ptcp-cons
  -flex: .хэнь
   gramm: ptcp,fut,3,pl
  -flex: .хэб//.хэм
@@ -3034,6 +3033,187 @@
  -flex: <0>.<.>
   gramm: 
   paradigm: num-nar
+  paradigm: num-nuud
+
+
+-paradigm: N-back-case-ptcp-vowel
+ -flex: .<.>
+  gramm: 
+  paradigm: pers-ptcp
+ -flex: .гүй<.>
+  gramm: neg
+  paradigm: pers-ptcp
+ -flex: .да<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .даа
+  gramm: dat,poss
+ -flex: .тай<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .тайгаа//.таяа
+  gramm: comit,poss
+ -flex: .һаа<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .һаан
+  gramm: abl,poss
+ -flex: .тайгаар<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .тайень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: .тайда<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .даһаа<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+
+-paradigm: N-back-case-ptcp-cons
+ -flex: .ын<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .ымни//.ым
+  gramm: gen,poss_1sg
+ -flex: .ынь
+  gramm: gen,poss_3
+ -flex: .ынгаа
+  gramm: gen,poss
+ -flex: .ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .аа
+  gramm: acc,poss
+ -flex: .аар<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .аараа
+  gramm: ins,poss
+ -flex: .ында<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+
+
+-paradigm: N-back-lab-case-ptcp-vowel
+ -flex: .<.>
+  gramm: 
+  paradigm: pers-ptcp
+ -flex: .гүй<.>
+  gramm: neg
+  paradigm: pers-ptcp
+ -flex: .до<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .доо
+  gramm: dat,poss
+ -flex: .той<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .тойгоо//.тоёо
+  gramm: comit,poss
+ -flex: .һоо<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .һоон
+  gramm: abl,poss
+ -flex: .тойгоор<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .тойень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: .тойдо<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .доһоо<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+
+-paradigm: N-back-lab-case-ptcp-cons
+ -flex: .ын<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .ымни//.ым
+  gramm: gen,poss_1sg
+ -flex: .ынь
+  gramm: gen,poss_3
+ -flex: .ынгоо
+  gramm: gen,poss
+ -flex: .ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .оо
+  gramm: acc,poss
+ -flex: .оор<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .оороо
+  gramm: ins,poss
+ -flex: .ындо<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+
+
+-paradigm: N-front-case-ptcp-vowel
+ -flex: .<.>
+  gramm: 
+  paradigm: pers-ptcp
+ -flex: .гүй<.>
+  gramm: neg
+  paradigm: pers-ptcp
+ -flex: .дэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .дээ
+  gramm: dat,poss
+ -flex: .тэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .тэйгээ//.тэеэ
+  gramm: comit,poss
+ -flex: .һээ<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .һээн
+  gramm: abl,poss
+ -flex: .тэйгээр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: .тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .дэһээ<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+
+-paradigm: N-front-case-ptcp-cons
+ -flex: .ын<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .ымни//.ым
+  gramm: gen,poss_1sg
+ -flex: .ынь
+  gramm: gen,poss_3
+ -flex: .ынгээ
+  gramm: gen,poss
+ -flex: .ые<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .ээ
+  gramm: acc,poss
+ -flex: .ээр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .ээрээ
+  gramm: ins,poss
+ -flex: .ындэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
 
 
 

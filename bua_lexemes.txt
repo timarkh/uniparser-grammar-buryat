@@ -30006,13 +30006,6 @@
  trans_ru: терять, утрачивать
 
 -lexeme
- lex: гээшэ
- stem: гээшэ.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: значит, выходит, следовательно, стало быть, ведь, же, уж
-
--lexeme
  lex: гү
  stem: гү.
  gramm: PART
@@ -36292,6 +36285,7 @@
  gramm: V
  stem: дохи.|дох.
  paradigm: i-palat-back-lab
+ trans_ru: кивать головой; кланяться
 
 -lexeme
  lex: дохол
@@ -37748,6 +37742,7 @@
  gramm: V
  stem: дуугар.//дуугара.|дуугар.
  paradigm: short-back
+ trans_ru: говорить, разговаривать; издавать звуки
 
 -lexeme
  lex: дуугүй
@@ -37920,7 +37915,7 @@
  gramm: V
  stem: дуула.|дуул.
  paradigm: short-back
- trans_ru: слушать, слышать
+ trans_ru: слушать, слышать; петь
 
 -lexeme
  lex: дуулбари
@@ -42123,7 +42118,7 @@
  gramm: N
  stem: дүүргэхэ.|дүүргэх.
  paradigm: N-front-case
- trans_ru: наполнять, заполнять
+ trans_ru: закончить, завершить; наполнить
 
 -lexeme
  lex: дүүргүүтэй
@@ -42671,7 +42666,7 @@
  gramm: V
  stem: ерэ.|ер.
  paradigm: short-front
- trans_ru: приезжать
+ trans_ru: приходить, приезжать
 
 -lexeme
  lex: ерэхэдээ
@@ -45631,6 +45626,7 @@
  gramm: V
  stem: жэшээл.//жэшээлэ.|жэшээл.
  paradigm: short-front
+ trans_ru: сравнивать
 
 -lexeme
  lex: жэшээлшэгүй
@@ -46157,7 +46153,7 @@
  gramm: N
  stem: зааха.|заах.
  paradigm: N-back-case
- trans_ru: указывать, показывать
+ trans_ru: указывать, показывать; учить
 
 -lexeme
  lex: заахан
@@ -60167,9 +60163,10 @@
 
 -lexeme
  lex: миһэрхэ
- gramm: N
- stem: миһэрхэ.|миһэрх.
- paradigm: N-front-case
+ gramm: V
+ stem: миһэр.//миһэрэ.|миһэр.
+ paradigm: short-front
+ trans_ru: улыбаться
 
 -lexeme
  lex: миһэрээн
@@ -62169,7 +62166,7 @@
  gramm: N
  stem: мэгдэхэ.|мэгдэх.
  paradigm: N-front-case
- trans_ru: прийти в смятение, переполошиться, опешить
+ trans_ru: спешить, торопиться
 
 -lexeme
  lex: мэгдэхээхэ
@@ -73048,7 +73045,7 @@
  gramm: V
  stem: ойлго.|ойлг.
  paradigm: short-back-lab
- trans_ru: отражать
+ trans_ru: понимать, понять; отражать
 
 -lexeme
  lex: ойлгохогүй
@@ -88125,7 +88122,7 @@
  gramm: V
  stem: таби.|таб.
  paradigm: i-palat-back
- trans_ru: пускать барана-производителя овцам
+ trans_ru: ставить, класть
 
 -lexeme
  lex: таблаа
@@ -91206,8 +91203,9 @@
  lex: тиихэ
  gramm: V
  stem: тии.
- paradigm: long-back
  paradigm: long-front
+ paradigm: i-palat-front
+ trans_ru: так делать
 
 -lexeme
  lex: тиихэдэ
@@ -113647,10 +113645,10 @@
 
 -lexeme
  lex: хашаха
- gramm: N
- stem: хашаха.|хашах.
- paradigm: N-back-case
- trans_ru: прижимать, придавливать, притискивать, припирать
+ gramm: V
+ stem: хаша.|хаш.
+ paradigm: short-back
+ trans_ru: придавливать
 
 -lexeme
  lex: хашуулха
@@ -121867,7 +121865,7 @@
  gramm: V
  stem: хэбтэ.|хэбт.
  paradigm: short-front
- trans_ru: ложиться
+ trans_ru: ложиться, лежать
 
 -lexeme
  lex: хэбтэшэ
@@ -128409,7 +128407,14 @@
  gramm: V
  stem: хүрэ.|хүр.
  paradigm: short-front-lab
- trans_ru: стынуть, остывать, охлаждать, застывать
+ trans_ru: остывать, охлаждать
+
+-lexeme
+ lex: хүрэхэ
+ gramm: V
+ stem: хүрэ.|хүр.
+ paradigm: short-front-lab
+ trans_ru: достать, достигать, доезжать
 
 -lexeme
  lex: хүрэхэгүй
@@ -128712,7 +128717,7 @@
  gramm: V
  stem: хүсэ.|хүс.
  paradigm: short-front-lab
- trans_ru: в или, желать, хотеть
+ trans_ru: достигать, желать
 
 -lexeme
  lex: хүсэһэн
@@ -144456,7 +144461,7 @@
  gramm: V
  stem: эхил.//эхилэ.|эхил.
  paradigm: short-front
- trans_ru: без начинать
+ trans_ru: начинать
 
 -lexeme
  lex: эхилэгдэхэ
@@ -146337,7 +146342,7 @@
  gramm: V
  stem: яба.|яб.
  paradigm: short-back
- trans_ru: ходить, ездить
+ trans_ru: идти
 
 -lexeme
  lex: ябахадаха
@@ -146609,6 +146614,7 @@
  gramm: V
  stem: яда.|яд.
  paradigm: short-back
+ trans_ru: страдать, мучиться
 
 -lexeme
  lex: ядахагүй
@@ -152122,6 +152128,13 @@
  trans_ru: пугаться, шарахаться
 
 -lexeme
+ lex: үргэхэ
+ gramm: V
+ stem: үргэ.|үрг.
+ paradigm: short-front-lab
+ trans_ru: поднимать
+
+-lexeme
  lex: үргээл
  gramm: N
  stem: үргээл.
@@ -155223,6 +155236,7 @@
  gramm: V
  stem: һана.|һан.
  paradigm: short-back
+ trans_ru: помнить; думать
 
 -lexeme
  lex: һанахадаха
@@ -158997,3 +159011,1423 @@
  stem: ташалган.|ташалга.|ташалг.
  paradigm: N-back-unstable_n-case
  trans_ru: альга ташалган рукоплескания, аплодисменты.
+
+-lexeme
+ lex: Биливин
+ gramm: N,PN,famn
+ stem: биливин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Биливин
+
+-lexeme
+ lex: Доржо
+ gramm: N,persn,PN
+ stem: доржо.|дорж.
+ paradigm: N-back-lab-case
+ trans_ru: Доржо
+
+-lexeme
+ lex: Ринчин
+ gramm: N,persn,PN
+ stem: ринчин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Ринчин
+
+-lexeme
+ lex: Аламжа
+ gramm: N,persn,PN
+ stem: аламжа.|аламж.
+ paradigm: N-back-case
+ trans_ru: Аламжа
+
+-lexeme
+ lex: Дулма
+ gramm: N,persn,PN
+ stem: дулма.|дулм.
+ paradigm: N-back-case
+ trans_ru: Дулма
+
+-lexeme
+ lex: Алексей
+ gramm: N,persn,PN
+ stem: алексей.
+ paradigm: N-front-y-case
+ trans_ru: Алексей
+
+-lexeme
+ lex: Таня
+ gramm: N,persn,PN
+ stem: таня.|тан.
+ paradigm: N-back-case
+ trans_ru: Таня
+
+-lexeme
+ lex: Балдан
+ gramm: N,persn,PN
+ stem: балдан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Балдан
+
+-lexeme
+ lex: Иван
+ gramm: N,persn,PN
+ stem: иван.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Иван
+
+-lexeme
+ lex: Мэдэгма
+ gramm: N,persn,PN
+ stem: мэдэгма.|мэдэгм.
+ paradigm: N-back-case
+ trans_ru: Мэдэгма
+
+-lexeme
+ lex: Дэбшэн
+ gramm: N,persn,PN
+ stem: дэбшэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Дэбшэн
+
+-lexeme
+ lex: Дагба
+ gramm: N,PN,persn
+ stem: дагба.|дагб.
+ paradigm: N-back-case
+ trans_ru: Дагба
+
+-lexeme
+ lex: Николай
+ gramm: N,PN,persn
+ stem: николай.
+ paradigm: N-back-y-case
+ trans_ru: Николай
+
+-lexeme
+ lex: Ломбо
+ gramm: N,PN,persn
+ stem: ломбо.|ломб.
+ paradigm: N-back-lab-case
+ trans_ru: Ломбо
+
+-lexeme
+ lex: Дамбуу
+ gramm: N,PN,persn
+ stem: дамбуу.
+ paradigm: N-back-long-case
+ trans_ru: Дамбуу
+
+-lexeme
+ lex: Барга-Няма
+ gramm: N,PN,persn
+ stem: барга-няма.|барга-ням.
+ paradigm: N-back-case
+ trans_ru: Барга-Няма
+
+-lexeme
+ lex: Радна
+ gramm: N,PN,persn
+ stem: радна.|радн.
+ paradigm: N-back-case
+ trans_ru: Радна
+
+-lexeme
+ lex: Ешигмаа
+ gramm: N,PN,persn
+ stem: ешигмаа.
+ paradigm: N-back-long-case
+ trans_ru: Ешигмаа
+
+-lexeme
+ lex: Дарима
+ gramm: N,PN,persn
+ stem: дарима.|дарим.
+ paradigm: N-back-case
+ trans_ru: Дарима
+
+-lexeme
+ lex: Тучин
+ gramm: N,PN,persn
+ stem: тучин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Тучин
+
+-lexeme
+ lex: Дамба
+ gramm: N,PN,persn
+ stem: дамба.|дамб.
+ paradigm: N-back-case
+ trans_ru: Дамба
+
+-lexeme
+ lex: Самбуу
+ gramm: N,PN,persn
+ stem: самбуу.
+ paradigm: N-back-long-case
+ trans_ru: Самбуу
+
+-lexeme
+ lex: Сэрэнцүү
+ gramm: N,PN,persn
+ stem: сэрэнцүү.
+ paradigm: N-front-lab-long-case
+ trans_ru: Сэрэнцүү
+
+-lexeme
+ lex: Шоён
+ gramm: N,PN,persn
+ stem: шоён.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Шоён
+
+-lexeme
+ lex: Шаралдай
+ gramm: N,PN,persn
+ stem: шаралдай.
+ paradigm: N-back-y-case
+ trans_ru: Шаралдай
+
+-lexeme
+ lex: Ринчимаа
+ gramm: N,PN,persn
+ stem: ринчимаа.
+ paradigm: N-back-long-case
+ trans_ru: Ринчимаа
+
+-lexeme
+ lex: Цэрэн
+ gramm: N,PN,persn
+ stem: цэрэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Цэрэн
+
+-lexeme
+ lex: Гарма
+ gramm: N,PN,persn
+ stem: гарма.|гарм.
+ paradigm: N-back-case
+ trans_ru: Гарма
+
+-lexeme
+ lex: Табдан
+ gramm: N,PN,persn
+ stem: табдан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Табдан
+
+-lexeme
+ lex: Сэдэн
+ gramm: N,PN,persn
+ stem: сэдэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Сэдэн, Цыден
+
+-lexeme
+ lex: Андрей
+ gramm: N,PN,persn
+ stem: андрей.
+ paradigm: N-front-y-case
+ trans_ru: Андрей
+
+-lexeme
+ lex: Бизьяа
+ gramm: N,PN,persn
+ stem: бизьяа.
+ paradigm: N-back-long-case
+ trans_ru: Бизьяа
+
+-lexeme
+ lex: Василий
+ gramm: N,PN,persn
+ stem: василий.
+ paradigm: N-front-y-case
+ trans_ru: Василий
+
+-lexeme
+ lex: Галсан
+ gramm: N,PN,persn
+ stem: галсан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Галсан
+
+-lexeme
+ lex: Цезарь
+ gramm: N,PN,persn
+ stem: цезарь.
+ paradigm: N-back-palat-cons-case
+ trans_ru: Цезарь
+
+-lexeme
+ lex: Анна
+ gramm: N,PN,persn
+ stem: анна.|анн.
+ paradigm: N-back-case
+ trans_ru: Анна
+
+-lexeme
+ lex: Сэндэмэ
+ gramm: N,PN,persn
+ stem: сэндэмэ.|сэндэм.
+ paradigm: N-front-case
+ trans_ru: Сэндэмэ
+
+-lexeme
+ lex: Савелий
+ gramm: N,PN,persn
+ stem: савелий.
+ paradigm: N-front-y-case
+ trans_ru: Савелий
+
+-lexeme
+ lex: Светлана
+ gramm: N,PN,persn
+ stem: светлана.|светлан.
+ paradigm: N-back-case
+ trans_ru: Светлана
+
+-lexeme
+ lex: Георгий
+ gramm: N,PN,persn
+ stem: георгий.
+ paradigm: N-front-y-case
+ trans_ru: Георгий
+
+-lexeme
+ lex: Янжима
+ gramm: N,PN,persn
+ stem: янжима.|янжим.
+ paradigm: N-back-case
+ trans_ru: Янжима
+
+-lexeme
+ lex: Бүтэдмаа
+ gramm: N,PN,persn
+ stem: бүтэдмаа.
+ paradigm: N-back-long-case
+ trans_ru: Бүтэдма, Бутидма
+
+-lexeme
+ lex: Должон
+ gramm: N,PN,persn
+ stem: должон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Должон
+
+-lexeme
+ lex: Москва
+ gramm: N,topn,PN
+ stem: москва.|москв.
+ paradigm: N-back-case
+ trans_ru: Москва
+
+-lexeme
+ lex: Лодон
+ gramm: N,PN,persn
+ stem: лодон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Лодон
+
+-lexeme
+ lex: Һама
+ gramm: N,PN,persn
+ stem: һама.|һам.
+ paradigm: N-back-case
+ trans_ru: Һама
+
+-lexeme
+ lex: Санжа
+ gramm: N,PN,persn
+ stem: санжа.|санж.
+ paradigm: N-back-case
+ trans_ru: Санжа
+
+-lexeme
+ lex: Алексеевна
+ gramm: N,PN,patrn
+ stem: алексеевна.|алексеевн.
+ paradigm: N-back-case
+ trans_ru: Алексеевна
+
+-lexeme
+ lex: Маглаа
+ gramm: N,persn,PN
+ stem: маглаа.
+ paradigm: N-back-long-case
+ trans_ru: Маглаа
+
+-lexeme
+ lex: Мархансай
+ gramm: N,persn,PN
+ stem: мархансай.
+ paradigm: N-back-y-case
+ trans_ru: Мархансай
+
+-lexeme
+ lex: Шнелль
+ gramm: N,PN,famn
+ stem: шнелль.
+ paradigm: N-front-palat-cons-case
+ trans_ru: Шнелль
+
+-lexeme
+ lex: Залма
+ gramm: N,persn,PN
+ stem: залма.|залм.
+ paradigm: N-back-case
+ trans_ru: Залма
+
+-lexeme
+ lex: Улаан-Үдэ
+ gramm: N,PN,topn
+ stem: улаан-үдэ.|улаан-үд.
+ paradigm: N-front-case
+ trans_ru: Улан-Удэ
+
+-lexeme
+ lex: Шойнзон
+ gramm: N,persn,PN
+ stem: шойнзон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Шойнзон
+
+-lexeme
+ lex: Степан
+ gramm: N,persn,PN
+ stem: степан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Степан
+
+-lexeme
+ lex: Булавин
+ gramm: N,PN,famn
+ stem: булавин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Булавин
+
+-lexeme
+ lex: Дулсан
+ gramm: N,persn,PN
+ stem: дулсан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Дулсан
+
+-lexeme
+ lex: Михайловна
+ gramm: N,PN,patrn
+ stem: михайловна.|михайловн.
+ paradigm: N-back-case
+ trans_ru: Михайловна
+
+-lexeme
+ lex: Яковлевна
+ gramm: N,PN,patrn
+ stem: яковлевна.|яковлевн.
+ paradigm: N-back-case
+ trans_ru: Яковлевна
+
+-lexeme
+ lex: Нина
+ gramm: N,persn,PN
+ stem: нина.|нин.
+ paradigm: N-back-case
+ trans_ru: Нина
+
+-lexeme
+ lex: Туваан
+ gramm: N,PN,persn
+ stem: туваан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Туваан
+
+-lexeme
+ lex: Долгормаа
+ gramm: N,PN,persn
+ stem: долгормаа.
+ paradigm: N-back-long-case
+ trans_ru: Долгорма
+
+-lexeme
+ lex: Пётр
+ gramm: N,PN,persn
+ stem: пётр.
+ paradigm: N-back-CC-case
+ trans_ru: Пётр
+
+-lexeme
+ lex: Соня
+ gramm: N,PN,persn
+ stem: соня.|сон.
+ paradigm: N-back-case
+ trans_ru: Соня
+
+-lexeme
+ lex: Володя
+ gramm: N,PN,persn
+ stem: володя.|волод.
+ paradigm: N-back-case
+ trans_ru: Володя
+
+-lexeme
+ lex: Роза
+ gramm: N,PN,persn
+ stem: роза.|роз.
+ paradigm: N-back-case
+ trans_ru: Роза
+
+-lexeme
+ lex: Норжимо
+ gramm: N,PN,persn
+ stem: норжимо.|норжим.
+ paradigm: N-back-lab-case
+ trans_ru: Норжимо
+
+-lexeme
+ lex: Оюуна
+ gramm: N,PN,persn
+ stem: оюуна.|оюун.
+ paradigm: N-back-case
+ trans_ru: Оюна
+
+-lexeme
+ lex: Баярмаа
+ gramm: N,PN,persn
+ stem: баярмаа.
+ paradigm: N-back-long-case
+ trans_ru: Баярма
+
+-lexeme
+ lex: Бабуудай
+ gramm: N,PN,persn
+ stem: бабуудай.
+ paradigm: N-back-y-case
+ trans_ru: Бабуудай
+
+-lexeme
+ lex: Агваан
+ gramm: N,PN,persn
+ stem: агваан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Агваан
+
+-lexeme
+ lex: Альбина
+ gramm: N,PN,persn
+ stem: альбина.|альбин.
+ paradigm: N-back-case
+ trans_ru: Альбина
+
+-lexeme
+ lex: Иондзын
+ gramm: N,PN,persn
+ stem: иондзын.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Иондзын
+
+-lexeme
+ lex: Яабагшан
+ gramm: N,PN,persn
+ stem: яабагшан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Яабагшан
+
+-lexeme
+ lex: Дабаа-Жалсан
+ gramm: N,PN,persn
+ stem: дабаа-жалсан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Дабаа-Жалсан
+
+-lexeme
+ lex: Дариима
+ gramm: N,PN,persn
+ stem: дариима.|дариим.
+ paradigm: N-back-case
+ trans_ru: Дариима
+
+-lexeme
+ lex: Малаадай
+ gramm: N,PN,persn
+ stem: малаадай.
+ paradigm: N-back-y-case
+ trans_ru: Малаадай
+
+-lexeme
+ lex: Алена
+ gramm: N,PN,persn
+ stem: алена.|ален.
+ paradigm: N-back-case
+ trans_ru: Алёна
+
+-lexeme
+ lex: Балма
+ gramm: N,PN,persn
+ stem: балма.|балм.
+ paradigm: N-back-case
+ trans_ru: Балма
+
+-lexeme
+ lex: Дичигмаа
+ gramm: N,PN,persn
+ stem: дичигмаа.
+ paradigm: N-back-long-case
+ trans_ru: Дичигмаа
+
+-lexeme
+ lex: Намсарай
+ gramm: N,PN,persn
+ stem: намсарай.
+ paradigm: N-back-y-case
+ trans_ru: Намсарай
+
+-lexeme
+ lex: Хорло
+ gramm: N,PN,persn
+ stem: хорло.|хорл.
+ paradigm: N-back-lab-case
+ trans_ru: Хорло
+
+-lexeme
+ lex: Даша
+ gramm: N,PN,persn
+ stem: даша.|даш.
+ paradigm: N-back-case
+ trans_ru: Даша
+
+-lexeme
+ lex: Александр
+ gramm: N,PN,persn
+ stem: александр.
+ paradigm: N-back-CC-case
+ trans_ru: Александр
+
+-lexeme
+ lex: Лубсан
+ gramm: N,PN,persn
+ stem: лубсан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Лубсан
+
+-lexeme
+ lex: Лёнхобо
+ gramm: N,persn,PN
+ stem: лёнхобо.|лёнхоб.
+ paradigm: N-back-lab-case
+ trans_ru: Лёнхобо
+
+-lexeme
+ lex: Мэдэгмаа
+ gramm: N,persn,PN
+ stem: мэдэгмаа.
+ paradigm: N-back-long-case
+ trans_ru: Мэдэгмаа
+
+-lexeme
+ lex: Наваан-
+ gramm: N,persn,PN
+ stem: наваан.
+ paradigm: N-back-CC-case
+ trans_ru: Первая часть двойного имени
+
+-lexeme
+ lex: Петя
+ gramm: N,persn,PN
+ stem: петя.|пет.
+ paradigm: N-back-case
+ trans_ru: Петя
+
+-lexeme
+ lex: Балжаа
+ gramm: N,persn,PN
+ stem: балжаа.
+ paradigm: N-back-long-case
+ trans_ru: Балжаа
+
+-lexeme
+ lex: Валя
+ gramm: N,persn,PN
+ stem: валя.|вал.
+ paradigm: N-back-case
+ trans_ru: Валя
+
+-lexeme
+ lex: Хэшэгмаа
+ gramm: N,persn,PN
+ stem: хэшэгмаа.
+ paradigm: N-back-long-case
+ trans_ru: Хэшэгмаа
+
+-lexeme
+ lex: Сэлэнгэ
+ gramm: N,PN,topn
+ stem: сэлэнгэ.|сэлэнг.
+ paradigm: N-front-case
+ trans_ru: Селенга
+
+-lexeme
+ lex: Шурыгин
+ gramm: N,PN,famn
+ stem: шурыгин.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Шурыгин
+
+-lexeme
+ lex: Ленин
+ gramm: N,PN,famn
+ stem: ленин.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Ленин
+
+-lexeme
+ lex: Пагмаасаан
+ gramm: N,PN,persn
+ stem: пагмаасаан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Пагмаасаан
+
+-lexeme
+ lex: Сергей
+ gramm: N,PN,persn
+ stem: сергей.
+ paradigm: N-front-y-case
+ trans_ru: Сергей
+
+-lexeme
+ lex: Юрөө
+ gramm: N,PN,topn
+ stem: юрөө.
+ paradigm: N-front-long-case
+ trans_ru: 
+
+-lexeme
+ lex: Мнацаканян
+ gramm: N,PN,famn
+ stem: мнацаканян.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Мнацаканян
+
+-lexeme
+ lex: Гаврюша
+ gramm: N,PN,persn
+ stem: гаврюша.|гаврюш.
+ paradigm: N-back-case
+ trans_ru: Гаврюша
+
+-lexeme
+ lex: Галя
+ gramm: N,PN,persn
+ stem: галя.|гал.
+ paradigm: N-back-case
+ trans_ru: Галя
+
+-lexeme
+ lex: Доржи
+ gramm: N,PN,persn
+ stem: доржи.
+ paradigm: N-back-lab-i-short-case
+ trans_ru: Доржи
+
+-lexeme
+ lex: Кузьма
+ gramm: N,PN,persn
+ stem: кузьма.|кузьм.
+ paradigm: N-back-case
+ trans_ru: Кузьма
+
+-lexeme
+ lex: Ёндон
+ gramm: N,PN,persn
+ stem: ёндон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Ёндон
+
+-lexeme
+ lex: Нгун
+ gramm: N,persn,PN
+ stem: нгун.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Нгун
+
+-lexeme
+ lex: Арьяшка
+ gramm: N,persn,PN
+ stem: арьяшка.|арьяшк.
+ paradigm: N-back-case
+ trans_ru: Арьяшка
+
+-lexeme
+ lex: Дуся
+ gramm: N,persn,PN
+ stem: дуся.|дус.
+ paradigm: N-back-case
+ trans_ru: Дуся
+
+-lexeme
+ lex: Иондзын-римбочэ
+ gramm: N,PN
+ stem: иондзын-римбочэ.|иондзын-римбоч.
+ paradigm: N-front-case
+ trans_ru: 
+
+-lexeme
+ lex: Санджи
+ gramm: N,PN,persn
+ stem: санджи.
+ paradigm: N-back-i-short-case
+ trans_ru: Санджи
+
+-lexeme
+ lex: Жамган
+ gramm: N,PN,persn
+ stem: жамган.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Жамган
+
+-lexeme
+ lex: Ханда
+ gramm: N,PN,persn
+ stem: ханда.|ханд.
+ paradigm: N-back-case
+ trans_ru: Ханда
+
+-lexeme
+ lex: Еши
+ gramm: N,PN,persn
+ stem: еши.
+ paradigm: N-back-i-short-case
+ trans_ru: Еши
+
+-lexeme
+ lex: Семён
+ gramm: N,PN,persn
+ stem: семён.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Семён
+
+-lexeme
+ lex: Сэрэн
+ gramm: N,PN,persn
+ stem: сэрэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Сэрэн
+
+-lexeme
+ lex: Рабдан
+ gramm: N,PN,persn
+ stem: рабдан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Рабдан
+
+-lexeme
+ lex: Нимбуу
+ gramm: N,PN,persn
+ stem: нимбуу.
+ paradigm: N-back-long-case
+ trans_ru: 
+
+-lexeme
+ lex: Ондрии
+ gramm: N,PN,persn
+ stem: ондрии.
+ paradigm: N-back-i-long-case
+ trans_ru: 
+
+-lexeme
+ lex: Балмасуу
+ gramm: N,PN,persn
+ stem: балмасуу.
+ paradigm: N-back-long-case
+ trans_ru: Балмасу
+
+-lexeme
+ lex: Цыден
+ gramm: N,PN,persn
+ stem: цыден.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Цыден
+
+-lexeme
+ lex: Арбаандай
+ gramm: N,PN,persn
+ stem: арбаандай.
+ paradigm: N-back-y-case
+ trans_ru: Арбаандай
+
+-lexeme
+ lex: Данзан
+ gramm: N,PN,persn
+ stem: данзан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Данзан
+
+-lexeme
+ lex: Лодой
+ gramm: N,PN,persn
+ stem: лодой.
+ paradigm: N-back-oj-case
+ trans_ru: Лодой
+
+-lexeme
+ lex: Толя
+ gramm: N,PN,persn
+ stem: толя.|тол.
+ paradigm: N-back-case
+ trans_ru: Толя
+
+-lexeme
+ lex: Джон
+ gramm: N,PN,persn
+ stem: джон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Джон
+
+-lexeme
+ lex: Света
+ gramm: N,PN,persn
+ stem: света.|свет.
+ paradigm: N-back-case
+ trans_ru: Света
+
+-lexeme
+ lex: Вера
+ gramm: N,PN,persn
+ stem: вера.|вер.
+ paradigm: N-back-case
+ trans_ru: Вера
+
+-lexeme
+ lex: Дугардаан
+ gramm: N,PN,persn
+ stem: дугардаан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Дугардаан
+
+-lexeme
+ lex: Дансаран
+ gramm: N,PN,persn
+ stem: дансаран.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Дансаран
+
+-lexeme
+ lex: Бадма
+ gramm: N,PN,persn
+ stem: бадма.|бадм.
+ paradigm: N-back-case
+ trans_ru: Бадма
+
+-lexeme
+ lex: Намсалмаа
+ gramm: N,PN,persn
+ stem: намсалмаа.
+ paradigm: N-back-long-case
+ trans_ru: Намсалма
+
+-lexeme
+ lex: Удамбраа
+ gramm: N,PN,persn
+ stem: удамбраа.
+ paradigm: N-back-long-case
+ trans_ru: Удамбраа
+
+-lexeme
+ lex: Кончун-Сойбон
+ gramm: N,PN,persn
+ stem: кончун-сойбон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Кончун-Сойбон
+
+-lexeme
+ lex: Саарма
+ gramm: N,PN,persn
+ stem: саарма.|саарм.
+ paradigm: N-back-case
+ trans_ru: Саарма
+
+-lexeme
+ lex: Шаруу
+ gramm: N,PN,persn
+ stem: шаруу.
+ paradigm: N-back-long-case
+ trans_ru: Шаруу
+
+-lexeme
+ lex: Ади
+ gramm: N,PN,persn
+ stem: ади.
+ paradigm: N-back-i-short-case
+ trans_ru: Ади
+
+-lexeme
+ lex: Будаали
+ gramm: N,PN,persn
+ stem: будаали.
+ paradigm: N-back-i-short-case
+ trans_ru: Будаали
+
+-lexeme
+ lex: Дугардаан
+ gramm: N,PN,persn
+ stem: дугардаан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Дугардаан
+
+-lexeme
+ lex: Цэрэн-Ханд
+ gramm: N,PN,persn
+ stem: цэрэн-ханда.|цэрэн-ханд.
+ paradigm: N-back-case
+ trans_ru: Цэрэн-Ханд
+
+-lexeme
+ lex: Головин
+ gramm: N,famn,PN
+ stem: головин.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Головин
+
+-lexeme
+ lex: Ригбии
+ gramm: N,PN,persn
+ stem: ригбии.
+ paradigm: N-back-i-long-case
+ trans_ru: Ригбии
+
+-lexeme
+ lex: Сибирь
+ gramm: N,PN,topn
+ stem: сибир.
+ paradigm: N-back-palat-cons-case
+ trans_ru: Сибирь
+
+-lexeme
+ lex: Тураахи
+ gramm: N,PN,persn
+ stem: тураахи.
+ paradigm: N-back-i-short-case
+ trans_ru: Тураахи
+
+-lexeme
+ lex: Баргажан
+ gramm: N,PN,topn
+ stem: баргажан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Баргузин
+
+-lexeme
+ lex: Дулсамаа
+ gramm: N,PN,persn
+ stem: дулсамаа.
+ paradigm: N-back-long-case
+ trans_ru: Дулсамаа
+
+-lexeme
+ lex: Сэсэгхэн
+ gramm: N,PN,persn
+ stem: сэсэгхэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Сэсэгхэн
+
+-lexeme
+ lex: Фагай
+ gramm: N,PN,persn
+ stem: фагай.
+ paradigm: N-back-y-case
+ trans_ru: Фагай
+
+-lexeme
+ lex: Хабибуллин
+ gramm: N,famn,PN
+ stem: хабибуллин.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Хабибуллин
+
+-lexeme
+ lex: Цокто
+ gramm: N,PN,persn
+ stem: цокто.|цокт.
+ paradigm: N-back-lab-case
+ trans_ru: Цокто
+
+-lexeme
+ lex: Глебовна
+ gramm: N,PN,patrn
+ stem: глебовна.|глебовн.
+ paradigm: N-back-case
+ trans_ru: Глебовна
+
+-lexeme
+ lex: Головкин
+ gramm: N,famn,PN
+ stem: головкин.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Головкин
+
+-lexeme
+ lex: Норжомо
+ gramm: N,PN,persn
+ stem: норжомо.|норжом.
+ paradigm: N-back-lab-case
+ trans_ru: 
+
+-lexeme
+ lex: Сандаха
+ gramm: N,PN,topn
+ stem: сандаха.|сандах.
+ paradigm: N-back-case
+ trans_ru: Сандаха
+
+-lexeme
+ lex: Антон
+ gramm: N,persn,PN
+ stem: антон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Антон
+
+-lexeme
+ lex: Доржима
+ gramm: N,persn,PN
+ stem: доржима.|доржим.
+ paradigm: N-back-case
+ trans_ru: Доржима
+
+-lexeme
+ lex: Алёша
+ gramm: N,persn,PN
+ stem: алёша.|алёш.
+ paradigm: N-back-case
+ trans_ru: Алёша
+
+-lexeme
+ lex: Паромон
+ gramm: N,persn,PN
+ stem: паромон.
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: Паромон
+
+-lexeme
+ lex: Эрхүү
+ gramm: N,topn,PN
+ stem: эрхүү.
+ paradigm: N-front-lab-long-case
+ trans_ru: Иркутск
+
+-lexeme
+ lex: Бальчин
+ gramm: N,persn,PN
+ stem: бальчин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Бальчин
+
+-lexeme
+ lex: Будамшуу
+ gramm: N,persn,PN
+ stem: будамшуу.
+ paradigm: N-back-long-case
+ trans_ru: Будамшуу
+
+-lexeme
+ lex: Женя
+ gramm: N,persn,PN
+ stem: женя.|жен.
+ paradigm: N-back-case
+ trans_ru: Женя
+
+-lexeme
+ lex: Залма
+ gramm: N,persn,PN
+ stem: залмын.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Залмын
+
+-lexeme
+ lex: Манюу
+ gramm: N,persn,PN
+ stem: манюу.
+ paradigm: N-back-long-case
+ trans_ru: Манюу
+
+-lexeme
+ lex: Николаевна
+ gramm: N,patrn,PN
+ stem: николаевна.|николаевн.
+ paradigm: N-back-case
+ trans_ru: Николаевна
+
+-lexeme
+ lex: Петровский
+ gramm: N,PN,famn
+ stem: петровский.
+ paradigm: N-back-lab-y-case
+ trans_ru: Петровский
+
+-lexeme
+ lex: Тасха
+ gramm: N,persn,PN
+ stem: тасха.|тасх.
+ paradigm: N-back-case
+ trans_ru: Тасха
+
+-lexeme
+ lex: Данилин
+ gramm: N,PN,famn
+ stem: данилин.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Данилин
+
+-lexeme
+ lex: Тэнтүү
+ gramm: N,persn,PN
+ stem: тэнтүү.
+ paradigm: N-front-lab-long-case
+ trans_ru: Тэнтүү
+
+-lexeme
+ lex: Цэрэгмаа
+ gramm: N,persn,PN
+ stem: цэрэгмаа.
+ paradigm: N-back-long-case
+ trans_ru: Цырегма
+
+-lexeme
+ lex: Бимба
+ gramm: N,persn,PN
+ stem: бимба.|бимб.
+ paradigm: N-back-case
+ trans_ru: Бимба
+
+-lexeme
+ lex: Илья
+ gramm: N,persn,PN
+ stem: илья.|иль.
+ paradigm: N-back-case
+ trans_ru: Илья
+
+-lexeme
+ lex: Миша
+ gramm: N,persn,PN
+ stem: миша.|миш.
+ paradigm: N-back-case
+ trans_ru: Миша
+
+-lexeme
+ lex: Петербург
+ gramm: N,topn,PN
+ stem: петербург.
+ paradigm: N-back-lab-CC-case
+ trans_ru: Петербург
+
+-lexeme
+ lex: Аргай
+ gramm: N,persn,PN
+ stem: аргай.
+ paradigm: N-back-y-case
+ trans_ru: Аргай
+
+-lexeme
+ lex: Бобровский
+ gramm: N,PN,famn
+ stem: бобровский.
+ paradigm: N-back-lab-y-case
+ trans_ru: Бобровский
+
+-lexeme
+ lex: Гэрэлмаа
+ gramm: N,persn,PN
+ stem: гэрэлмаа.
+ paradigm: N-back-long-case
+ trans_ru: Гэрэлмаа
+
+-lexeme
+ lex: Дулгармаа
+ gramm: N,persn,PN
+ stem: дулгармаа.
+ paradigm: N-back-long-case
+ trans_ru: Дулгармаа
+
+-lexeme
+ lex: Жамбаловна
+ gramm: N,patrn,PN
+ stem: жамбаловна.|жамбаловн.
+ paradigm: N-back-case
+ trans_ru: Жамбаловна
+
+-lexeme
+ lex: Синг
+ gramm: N,persn,PN
+ stem: синг.
+ paradigm: N-back-CC-case
+ trans_ru: Синг
+
+-lexeme
+ lex: Петрүүхэ
+ gramm: N,persn,PN
+ stem: петрүүхэ.|петрүүх.
+ paradigm: N-front-case
+ trans_ru: Петруха
+
+-lexeme
+ lex: Рагузинский
+ gramm: N,PN,famn
+ stem: рагузинский.
+ paradigm: N-back-lab-y-case
+ trans_ru: Рагузинский
+
+-lexeme
+ lex: Сандан
+ gramm: N,persn,PN
+ stem: сандан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Сандан
+
+-lexeme
+ lex: Мухани
+ gramm: N,persn,PN
+ stem: мухани.
+ paradigm: N-back-i-short-case
+ trans_ru: Мухани
+
+-lexeme
+ lex: Тобшой
+ gramm: N,persn,PN
+ stem: тобшой.
+ paradigm: N-back-oj-case
+ trans_ru: Тобшой
+
+-lexeme
+ lex: Хумбаа
+ gramm: N,persn,PN
+ stem: хумбаа.
+ paradigm: N-back-long-case
+ trans_ru: Хумбаа
+
+-lexeme
+ lex: Юндэн
+ gramm: N,persn,PN
+ stem: юндэн.
+ paradigm: N-front-velar-cons-case
+ trans_ru: Юндэн
+
+-lexeme
+ lex: Диденко
+ gramm: N,PN,famn
+ stem: диденко.|диденк.
+ paradigm: N-back-lab-case
+ trans_ru: Диденко
+
+-lexeme
+ lex: Петромаан
+ gramm: N,persn,PN
+ stem: петромаан.
+ paradigm: N-back-velar-cons-case
+ trans_ru: Петромаан
+
+-lexeme
+ lex: һүрэхэ
+ gramm: V
+ stem: һүрэ.|һүр.
+ paradigm: short-front-lab
+ trans_ru: прыгать
+
+-lexeme
+ lex: зүбшөөхэ
+ gramm: V
+ stem: зүбшөө.
+ paradigm: long-front
+ trans_ru: получать одобрение (согласие, разрешение)
+
+-lexeme
+ lex: обёорхо
+ gramm: V
+ stem: обёор.//обёоро.|обёор.
+ paradigm: short-back-lab
+ trans_ru: замечать
+
+-lexeme
+ lex: шададаха
+ gramm: V
+ stem: шадада.|шадад.
+ paradigm: short-back
+ trans_ru: мочь, быть в состоянии
+
+-lexeme
+ lex: һүхирхэ
+ gramm: V
+ stem: һүхир.//һүхирэ.|һүхир.
+ paradigm: short-front
+ trans_ru: кричать, орать
+-lexeme
+ lex: юрэдөө
+ gramm: PART
+ stem: юрэдөө.
+ paradigm: unchangeable
+ trans_ru: вообще, впрочем
+
+-lexeme
+ lex: юундэшьеб
+ gramm: PART
+ stem: юундэшьеб.
+ paradigm: unchangeable
+ trans_ru: почему-то, отчего-то
+
+-lexeme
+ lex: гээшэ
+ gramm: PART
+ stem: гээшэ.
+ paradigm: unchangeable
+ trans_ru: значит, следовательно
+
+-lexeme
+ lex: бы
+ gramm: PART
+ stem: бы.
+ paradigm: unchangeable
+ trans_ru: тиигээ бы? неужели так получилось?
+
+-lexeme
+ lex: гээшэбибди
+ gramm: PART
+ stem: гээшэбибди.
+ paradigm: unchangeable
+ trans_ru: значит, следовательно
+
+-lexeme
+ lex: зуг
+ gramm: PART
+ stem: зуг.
+ paradigm: unchangeable
+ trans_ru: 
+
+-lexeme
+ lex: мээл
+ gramm: PART
+ stem: мээл.
+ paradigm: unchangeable
+ trans_ru: 
+
+-lexeme
+ lex: һаа-һаа
+ gramm: PART
+ stem: һаа-һаа.
+ paradigm: unchangeable
+ trans_ru: һаа-һаа
+
+-lexeme
+ lex: хаяа
+ gramm: PART
+ stem: хаяа.
+ paradigm: unchangeable
+ trans_ru: а-а
+
+-lexeme
+ lex: бэд
+ gramm: PART
+ stem: бэд.
+ paradigm: unchangeable
+ trans_ru: частица подтверждения
+
+-lexeme
+ lex: а-а
+ gramm: PART
+ stem: а-а.
+ paradigm: unchangeable
+ trans_ru: а-а
