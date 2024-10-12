@@ -4124,7 +4124,7 @@
  -flex: <0>.эй<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: <0>.иинь
+ -flex: <0>.иинь//<0>.ынь
   gramm: nom,poss_3
  -flex: <0>.эйнгээ
   gramm: gen,poss
@@ -4133,7 +4133,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.дээ//<0>.тээ
   gramm: dat,poss
- -flex: <0>.иие<.>
+ -flex: <0>.иие<.>//<0>.ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: <0>.ээ
@@ -4314,7 +4314,7 @@
  -flex: .ай<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: .иинь
+ -flex: .иинь//.ынь
   gramm: nom,poss_3
  -flex: .айнгаа//.иингаа
   gramm: gen,poss
@@ -4323,7 +4323,7 @@
   paradigm: poss-m(ni)-n
  -flex: .ьдаа//.ьтаа
   gramm: dat,poss
- -flex: .иие<.>
+ -flex: .иие<.>//.ые
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: .аа
@@ -4375,7 +4375,7 @@
  -flex: .ей<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: .иинь
+ -flex: .иинь//.ынь
   gramm: nom,poss_3
  -flex: .айнгаа//.иингаа
   gramm: gen,poss
@@ -4384,7 +4384,7 @@
   paradigm: poss-m(ni)-n
  -flex: .ьдээ//.ьтээ
   gramm: dat,poss
- -flex: .иие<.>
+ -flex: .иие<.>//.ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: .еэ
@@ -4446,7 +4446,7 @@
   paradigm: poss-m(ni)-n
  -flex: .идоо//.ьтоо
   gramm: dat,poss
- -flex: .иие<.>
+ -flex: .иие<.>//.ые<.>
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: .ёо//.иёо
