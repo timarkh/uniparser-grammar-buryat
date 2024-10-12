@@ -10051,7 +10051,7 @@
  gramm: V
  stem: бай.
  paradigm: long-back
- trans_ru: быть
+ trans_ru: быть, находиться
 
 -lexeme
  lex: байхыса
@@ -15434,8 +15434,8 @@
 -lexeme
  lex: бохюу
  stem: бохюу.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-lab-case
  trans_ru: кость, рог (для прикрепления металлического наконечника стрелы к древку)
 
 -lexeme
@@ -18553,13 +18553,6 @@
  gramm: N
  stem: буһалгаан.|буһалгаа.|буһалгаа.
  paradigm: N-unstable_n-all-case
-
--lexeme
- lex: был
- stem: был.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: основным божеством, обеспечивающим благополучие дамашнем быту
 
 -lexeme
  lex: бэ
@@ -35192,7 +35185,7 @@
  stem: доло.
  gramm: PART
  paradigm: unchangeable
- trans_ru: совсем, совершенно, всё, окончательно, начисто, в пух и в прах
+ trans_ru: совсем, совершенно
 
 -lexeme
  lex: долобхоо
@@ -39026,7 +39019,7 @@
  gramm: V
  stem: дэлгэгдэ.|дэлгэгд.
  paradigm: short-front
- trans_ru: развёртываться, разворачиваться, расправляться, раскрываться
+ trans_ru: разворачиваться, раскрываться
 
 -lexeme
  lex: дэлгэмэл
@@ -44634,7 +44627,7 @@
  stem: жэгдэ.
  gramm: A
  paradigm: predic_non_verbal
- trans_ru: һайн бэшэ, эреэ маряантай не всё хорошо, имеются недоработки, недочёты
+ trans_ru: 
 
 -lexeme
  lex: жэгдэгүй
@@ -46470,7 +46463,7 @@
 
 -lexeme
  lex: загагшан
- gramm: N
+ gramm: N,anim
  stem: загагшан.|загагша.
  paradigm: N-back-velar-cons-case
  trans_ru: кобыла с гривой и хвостом более тёмного цвета, чем остальные части тела, и тёмной полосой вдоль хребта
@@ -61673,7 +61666,7 @@
  gramm: V
  stem: мууда.|мууд.
  paradigm: short-back
- trans_ru: становиться плохим, приходить в негодность, ухудшаться, портиться, худеть, слабеть
+ trans_ru: ухудшаться, портиться, слабеть
 
 -lexeme
  lex: муудуулха
@@ -61701,7 +61694,7 @@
  gramm: V
  stem: муужар.//муужара.|муужар.
  paradigm: short-back
- trans_ru: становиться плохим, приходить в негодность, ухудшаться, портиться, худеть, слабеть
+ trans_ru: ухудшаться, портиться, слабеть
 
 -lexeme
  lex: мууламгай
@@ -62567,7 +62560,7 @@
  gramm: V
  stem: мэдүүл.//мэдүүлэ.|мэдүүл.
  paradigm: short-front
- trans_ru: ставить в известность, давать знать, сообщать, извещать, оповещать
+ trans_ru: ставить в известность
 
 -lexeme
  lex: мэдүүлэгдэхэ
@@ -63133,7 +63126,14 @@
  stem: мэтэ.
  gramm: ADV
  paradigm: unchangeable
- trans_ru: как, словно, точно, подобно, как будто
+ trans_ru: как, как будто
+
+-lexeme
+ lex: мэтээр
+ stem: мэтээр.
+ gramm: ADV
+ paradigm: unchangeable
+ trans_ru: как, как будто
 
 -lexeme
  lex: мэтэр
@@ -66011,7 +66011,7 @@
  gramm: V
  stem: найрамда.|найрамд.
  paradigm: short-back
- trans_ru: быть в согласии, ладить, устанавливать дружественные отношения
+ trans_ru: быть в согласии, ладить
 
 -lexeme
  lex: найргүй
@@ -70741,7 +70741,7 @@
  lex: нюдэн
  gramm: N
  stem: нюдэн.|нюдэ.
- paradigm: N-front-velar-cons-case
+ paradigm: N-front-lab-velar-cons-case
  trans_ru: глаз, глаза
 
 -lexeme
@@ -74692,7 +74692,7 @@
  gramm: V
  stem: оодогоно.|оодогон.
  paradigm: short-back-lab
- trans_ru: говорится движениях кого-л., куцехвостого или коротким хвостом
+ trans_ru: о движениях кого-л. куцехвостого или коротким хвостом
 
 -lexeme
  lex: оодон
@@ -76383,7 +76383,7 @@
  gramm: V
  stem: охо.|ох.
  paradigm: short-back-lab
- trans_ru: ябадал хэхэ, хурисал үйлэдэхэ. секс лэлэ, унтаха» гэдэг иметь сношение лицом женского пола
+ trans_ru: 
 
 -lexeme
  lex: охро
@@ -76761,13 +76761,6 @@
  gramm: A
  paradigm: predic_non_verbal
  trans_ru: частица словам начальным па-
-
--lexeme
- lex: паблик
- stem: паблик.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: рилейшнз, олониитын һанал бодолые али нэгэ тээшэнь шэглүүлхые оролдолго паблик рилейшнз, пиар
 
 -lexeme
  lex: павильон
@@ -77300,7 +77293,7 @@
  gramm: V
  stem: паршагана.|паршаган.
  paradigm: short-back
- trans_ru: говорится различных шумовых звуках паршаганаса хурхирха громко храпеть
+ trans_ru: говорится о различных шумовых звуках
 
 -lexeme
  lex: паршагануулха
@@ -77331,48 +77324,48 @@
 -lexeme
  lex: пассаж
  stem: пассаж.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: . шадабаритайгаар наадагдаха хүгжэмтэ зохёолой хубинь пассаж
+ gramm: N,rus
+ paradigm: N-back-velar-cons-case
+ trans_ru: пассаж
 
 -lexeme
  lex: пассажир
- gramm: N
+ gramm: N,rus,anim,hum
  stem: пассажир.
  paradigm: N-back-velar-cons-case
 
 -lexeme
  lex: пассат
  stem: пассат.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-velar-cons-case
  trans_ru: пассат
 
 -lexeme
  lex: паста
  stem: паста.|паст.
- gramm: N
+ gramm: N,rus
  paradigm: N-back-case
  trans_ru: паста
 
 -lexeme
  lex: пастеризатор
  stem: пастеризатор.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N,rus
+ paradigm: N-back-velar-cons-case
  trans_ru: пастеризатор
 
 -lexeme
  lex: пастернак
  stem: пастернак.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N,rus
+ paradigm: N-back-velar-cons-case
  trans_ru: пастернак
 
 -lexeme
  lex: пастила
  stem: пастила.|пастил.
- gramm: N
+ gramm: N,rus
  paradigm: N-back-case
  trans_ru: пастила
 
@@ -77400,15 +77393,15 @@
 -lexeme
  lex: пасьянс
  stem: пасьянс.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-velar-cons-case
  trans_ru: пасьянс
 
 -lexeme
  lex: пат
  stem: пат.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-velar-cons-case
  trans_ru: пат
 
 -lexeme
@@ -77463,8 +77456,8 @@
 -lexeme
  lex: патронник
  stem: патронник.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-velar-cons-case
  trans_ru: патронник
 
 -lexeme
@@ -77503,8 +77496,8 @@
 -lexeme
  lex: паштет
  stem: паштет.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-front-velar-cons-case
  trans_ru: паштет
 
 -lexeme
@@ -77518,29 +77511,29 @@
 -lexeme
  lex: педикюр
  stem: педикюр.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-front-velar-cons-case
  trans_ru: педикюр
 
 -lexeme
  lex: пеленгатор
  stem: пеленгатор.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-back-velar-cons-case
  trans_ru: пеленгатор
 
 -lexeme
  lex: пеликан
  stem: пеликан.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N,anim,rus
+ paradigm: N-back-velar-cons-case
  trans_ru: пеликан
 
 -lexeme
  lex: пенициллин
  stem: пенициллин.
- gramm: A
- paradigm: predic_non_verbal
+ gramm: N
+ paradigm: N-front-velar-cons-case
  trans_ru: пенициллин
 
 -lexeme
@@ -77560,9 +77553,9 @@
 -lexeme
  lex: пеон
  stem: пеон.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: үритэ таряашан пеон
+ gramm: N
+ paradigm: N-back-lab-velar-cons-case
+ trans_ru: пеон
 
 -lexeme
  lex: пергамент
@@ -77833,7 +77826,7 @@
  stem: пирагар.
  gramm: A
  paradigm: predic_non_verbal
- trans_ru: последующим олон или без него, говорится множестве отдельных одинаковых предметов
+ trans_ru: о множестве отдельных одинаковых предметов
 
 -lexeme
  lex: пирайха
@@ -79049,7 +79042,7 @@
  gramm: V
  stem: пүлхэгэнэ.|пүлхэгэн.
  paradigm: short-front-lab
- trans_ru: движениях человека полными щеками или дэгэле со вздувшимися частями
+ trans_ru: о движениях человека полными щеками или со вздувшимися частями
 
 -lexeme
  lex: пүлхэгэр
@@ -79599,9 +79592,9 @@
 -lexeme
  lex: рейд
  stem: рейд.
- gramm: A
- paradigm: predic_non_verbal
- trans_ru: . дайсанай ара тала руу түргэнөөр сүмэрэн орожо добтололго рейд
+ gramm: N,rus
+ paradigm: N-front-velar-cons-case
+ trans_ru: рейд
 
 -lexeme
  lex: рейдовэ
@@ -80103,7 +80096,7 @@
  gramm: N
  stem: сааза.|сааз.
  paradigm: N-back-case
- trans_ru: . сааза бэшэг, сааза хуули бэшэг, хуули саазын бэшэг степной закон, уложение, указ
+ trans_ru: сааза бэшэг, сааза хуули бэшэг, хуули саазын бэшэг степной закон, уложение, указ
 
 -lexeme
  lex: саазалагдаха

@@ -3888,6 +3888,62 @@
   paradigm: num-d
 
 
+
+-paradigm: N-front-lab-long-case
+ -flex: .<.>
+  gramm: nom
+  paradigm: poss-m(ni)-n
+ -flex: .гэй<.>
+  gramm: gen
+  paradigm: poss-m(ni)-n
+ -flex: .гэйнгөө
+  gramm: gen,poss
+ -flex: .дэ<.>
+  gramm: dat
+  paradigm: poss-m(ni)-n
+ -flex: .дөө
+  gramm: dat,poss
+ -flex: .е<.>
+  gramm: acc
+  paradigm: poss-m(ni)-n
+ -flex: .гөө
+  gramm: acc,poss
+ -flex: .гөөр<.>
+  gramm: ins
+  paradigm: poss-ni-n
+ -flex: .гөөрөө
+  gramm: ins,poss
+ -flex: .тэй<.>
+  gramm: comit
+  paradigm: poss-m(ni)-n
+ -flex: .тэйгөө//.төёө
+  gramm: comit,poss
+ -flex: .һөө<.>
+  gramm: abl
+  paradigm: poss-m(ni)-n
+ -flex: .һөөн
+  gramm: abl,poss
+ -flex: .гэйдэ<.>
+  gramm: gen,dat
+  paradigm: poss-m(ni)-n
+ -flex: .тэйгөөр<.>
+  gramm: comit,ins
+  paradigm: poss-ni-n
+ -flex: .тэйень<.>
+  gramm: comit,acc
+  paradigm: poss-m(ni)-n
+ -flex: .тэйдэ<.>
+  gramm: comit,dat
+  paradigm: poss-m(ni)-n
+ -flex: .дэһөө<.>
+  gramm: dat,abl
+  paradigm: poss-m(ni)-n
+ -flex: .<.>
+  gramm: 
+  paradigm: num-nyuud
+  paradigm: num-d
+
+
 -paradigm: N-back-long-case
  -flex: .<.>
   gramm: nom
@@ -3940,6 +3996,7 @@
  -flex: .<.>
   gramm: 
   paradigm: num-nar
+  paradigm: num-nuud
 
 
 -paradigm: N-back-lab-long-case
@@ -4067,7 +4124,7 @@
  -flex: <0>.эй<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: <0>.ынь
+ -flex: <0>.иинь
   gramm: nom,poss_3
  -flex: <0>.эйнгээ
   gramm: gen,poss
@@ -4076,7 +4133,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.дээ//<0>.тээ
   gramm: dat,poss
- -flex: <0>.ые<.>
+ -flex: <0>.иие<.>
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: <0>.ээ
@@ -4131,7 +4188,7 @@
  -flex: <0>.эй<.>
   gramm: gen
   paradigm: poss-m(ni)-n
- -flex: <0>.ынь
+ -flex: <0>.иинь
   gramm: nom,poss_3
  -flex: <0>.эйнгөө//<0>.эйгөө
   gramm: gen,poss
@@ -4140,7 +4197,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.дөө//<0>.төө
   gramm: dat,poss
- -flex: <0>.ые<.>
+ -flex: <0>.иие<.>//<1>.еэ<.>
   gramm: acc
   paradigm: poss-m(ni)-n
  -flex: <0>.өө
