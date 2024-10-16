@@ -2,7 +2,7 @@
  -flex: .
   gramm: 
  -flex: .л
-  gramm: LEX:лэ:PART;trans_ru=же; уж; -ка
+  gramm: LEX:лэ:PART;trans_ru=же/уж/-ка
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
  -flex: .г
   gramm: LEX:гү:PART;trans_ru=ли
@@ -11,14 +11,14 @@
   gramm: LEX:бэ:PART;trans_ru=вопросительная частица
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
  -flex: .шье<.>
-  gramm: LEX:шье:PART;trans_ru=хотя; и... и
+  gramm: LEX:шье:PART;trans_ru=хотя/и... и
   paradigm: unchangeable-final
 
 -paradigm: unchangeable-final
  -flex: .
   gramm: 
  -flex: .л
-  gramm: LEX:лэ:PART;trans_ru=же; уж; -ка
+  gramm: LEX:лэ:PART;trans_ru=же/уж/-ка
   regex-prev: .*[аеёийоөуүэюя][.<>]*$
  -flex: .г
   gramm: LEX:гү:PART;trans_ru=ли
@@ -3272,6 +3272,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -3330,6 +3331,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -3386,6 +3388,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3440,6 +3443,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3494,6 +3498,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3550,6 +3555,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -3606,6 +3612,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -3662,6 +3669,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3718,6 +3726,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -3774,6 +3783,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3830,6 +3840,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -3884,6 +3895,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
   paradigm: num-d
 
@@ -3940,6 +3952,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
   paradigm: num-d
 
@@ -4050,6 +4063,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -4109,10 +4123,12 @@
  -flex: <0>.<.>
   regex-prev: .*[^лр<>.][<>.]*$
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <0>.<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -4173,10 +4189,12 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-yuud
  -flex: <0>.<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -4237,10 +4255,12 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-yuud
  -flex: <0>.<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 
@@ -4299,10 +4319,12 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <0>.<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 
@@ -4361,10 +4383,12 @@
   paradigm: poss-m(ni)-n
  -flex: .ь<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: .ь<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-nar
   paradigm: num-nuud
 
 -paradigm: N-front-palat-cons-case
@@ -4422,10 +4446,12 @@
   paradigm: poss-m(ni)-n
  -flex: .ь<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-yuud
  -flex: .ь<.>
   regex-prev: .*[лр][<>.]*$
   gramm: 
+  paradigm: num-ner
   paradigm: num-nyuud
 
 -paradigm: N-back-lab-palat-cons-case
@@ -4482,9 +4508,15 @@
  -flex: .идоһоо<.>//.ьтоһоо<.>
   gramm: dat,abl
   paradigm: poss-m(ni)-n
- -flex: .<.>
+ -flex: .ь<.>
   gramm: 
   paradigm: num-nar
+  paradigm: num-uud
+ -flex: .ь<.>
+  regex-prev: .*[лр][<>.]*$
+  gramm: 
+  paradigm: num-nar
+  paradigm: num-nuud
 
 
 
@@ -4543,6 +4575,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-ner
   paradigm: num-gyuud
 
 
@@ -4601,6 +4634,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-guud
 
 
@@ -4661,7 +4695,8 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
-  paradigm: num-ner
+  paradigm: num-nar
+  paradigm: num-gyuud
 
 
 -paradigm: N-back-CC-case
@@ -4717,6 +4752,7 @@
   paradigm: poss-m(ni)-n
  -flex: .<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-guud
 
 
@@ -4774,6 +4810,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <1>.<.>
   gramm: 
@@ -4837,6 +4874,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <1>.<.>
   gramm: 
@@ -4900,6 +4938,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <1>.<.>
   gramm: 
@@ -4963,6 +5002,7 @@
   paradigm: poss-m(ni)-n
  -flex: <0>.<.>
   gramm: 
+  paradigm: num-nar
   paradigm: num-uud
  -flex: <1>.<.>
   gramm: 
